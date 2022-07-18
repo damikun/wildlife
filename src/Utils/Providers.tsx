@@ -1,8 +1,7 @@
 import { MotionConfig } from "framer-motion";
 import LayoutProvider from "./LayoutProvider";
 import React, { Suspense, useMemo, useState } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-import Spinner from "../Components/UI/Spinner";
+import { HashRouter as Router } from "react-router-dom";
 
 type ProvidersProps = {
   children: React.ReactNode;
