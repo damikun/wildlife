@@ -81,8 +81,8 @@ function QuartalArea(){
       "md:grid md:grid-cols-2 items-center justify-center",
       "bg-black select-none")}>
 
-      <Card name='Q1' isReady={true} to={"wildlife/2022/q1"} thumb={ThumbQ1} />
-      <Card name='Q2' isReady={true} to={"wildlife/2022/q2"} thumb={ThumbQ2}/>
+      <Card name='Q1' isReady={true} to={"/wildlife/2022/q1"} thumb={ThumbQ1} />
+      <Card name='Q2' isReady={true} to={"/wildlife/2022/q2"} thumb={ThumbQ2}/>
       <Card name='Q3' isReady={false}/>
       <Card name='Q4' isReady={false}/>
     </div>
