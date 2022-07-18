@@ -16,11 +16,11 @@ function App() {
   return (
     <Providers>
       <Routes>
-        <Route path="wildlife/2022/Q1" element={<Quartal images={ImagesQ1} name='Q1 2022'/>} />
-        <Route path="wildlife/2022/Q2" element={<Quartal images={ImagesQ2} name='Q2 2022'/>} />
-        <Route path="wildlife/Story/*" element={<Story />} />
-        <Route path="wildlife/" element={<Home />} />
-        <Route path="wildlife/*" element={<Navigate to={"/"} state={null}/>} />
+        <Route path="/2022/Q1" element={<Quartal images={ImagesQ1} name='Q1 2022'/>} />
+        <Route path="/2022/Q2" element={<Quartal images={ImagesQ2} name='Q2 2022'/>} />
+        <Route path="/Story/*" element={<Story />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/*" element={<Navigate to={"/"} state={null}/>} />
       </Routes>
     </Providers>
   );
