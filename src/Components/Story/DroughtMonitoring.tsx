@@ -79,9 +79,9 @@ import { GetUri } from "../../Constants";
 
         <p>Prichádzam na rovnaké miesto. Pohodlie v ryhe z predošlého dna nebolo ideálne, tak padá rozhodnutie, že sa vyvalím priamo v kukurici. Hľadám dostatočne vysoké rastliny, ktoré ma zakryjú z každej strany a čakám na západ slnka.</p>
 
-        <div className="flex flex-col md:flex-row md:space-x-2 flex-nowrap h-96 xl:h-128 overflow-hidden md:justify-between">
-            <img className="rounded-sm shadow-sm" src={GetUri("amr0aqrlqcismro/40.webp")} alt="Stanovisko v kukurici"/>
-            <img className="rounded-sm shadow-sm" src={GetUri("0x72e00hm0wwgiu/50.webp")} alt="Obdobie sucha"/>
+        <div className="flex flex-col md:flex-row md:space-x-2 flex-nowrap overflow-hidden md:justify-between">
+            <img className="rounded-sm shadow-sm h-96 xl:h-128 object-cover" src={GetUri("amr0aqrlqcismro/40.webp")} alt="Stanovisko v kukurici"/>
+            <img className="rounded-sm shadow-sm h-96 xl:h-128 object-cover" src={GetUri("0x72e00hm0wwgiu/50.webp")} alt="Obdobie sucha"/>
         </div>
 
         <p>Čas ubieha pomaly a ja premýšľam. Je 8 večer. Som smädný a hladný všetko, čo som si zobral som zmastil a vravím si, že tomu dám max. 15 minút a pôjdem. Nebudem tu za každú cenu.</p>
