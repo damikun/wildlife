@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+img {
+  image-orientation: from-image;
+}
+
 *:focus {
   outline: none;
 }
