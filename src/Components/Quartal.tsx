@@ -39,7 +39,7 @@ function HomeNavigation(){
     "font-semibold text-xl text-gray-200 transition-all",
     "z-40 ml-7 mt-3 duration-200",
     "hover:text-white")}>
-    <Link className='flex space-x-2 justify-center items-center' to={"/"}>
+    <Link className='flex space-x-2 justify-center items-center' to={"/wildlife"}>
       <FontAwesomeIcon icon={faHouse}/>
       <span>Home</span>
     </Link>
