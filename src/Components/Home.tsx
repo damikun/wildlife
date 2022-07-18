@@ -42,10 +42,10 @@ function StoryArea(){
   <div className={clsx("flex flex-col m-10 h-full md:h-auto",
     "content-center justify-items-center align-middle text-lg",
     "items-center justify-center text-gray-200 space-y-2")}>
-    <LinkWrapper to="wildlife/Story/MorningAfterRain">Morning after rain</LinkWrapper>
-    <LinkWrapper to="wildlife/Story/DroughtMonitoring">Deer behaviour during the dry season</LinkWrapper>
-    <LinkWrapper to="wildlife/Story/NightWithBears">Night with bears</LinkWrapper>
-    <LinkWrapper to="wildlife/Story/RoebuckTherithoryFight">Roebuck therithory fight</LinkWrapper>
+    <LinkWrapper to="/wildlife/Story/MorningAfterRain">Morning after rain</LinkWrapper>
+    <LinkWrapper to="/wildlife/Story/DroughtMonitoring">Deer behaviour during the dry season</LinkWrapper>
+    <LinkWrapper to="/wildlife/Story/NightWithBears">Night with bears</LinkWrapper>
+    <LinkWrapper to="/wildlife/Story/RoebuckTherithoryFight">Roebuck therithory fight</LinkWrapper>
   </div>
 </div>
 }
@@ -81,8 +81,8 @@ function QuartalArea(){
       "md:grid md:grid-cols-2 items-center justify-center",
       "bg-black select-none")}>
 
-      <Card name='Q1' isReady={true} to={"/2022/q1"} thumb={ThumbQ1} />
-      <Card name='Q2' isReady={true} to={"/2022/q2"} thumb={ThumbQ2}/>
+      <Card name='Q1' isReady={true} to={"wildlife/2022/q1"} thumb={ThumbQ1} />
+      <Card name='Q2' isReady={true} to={"wildlife/2022/q2"} thumb={ThumbQ2}/>
       <Card name='Q3' isReady={false}/>
       <Card name='Q4' isReady={false}/>
     </div>
