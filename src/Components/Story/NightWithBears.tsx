@@ -25,7 +25,7 @@ import { GetUri } from "../../Constants";
 
         <p>Prichádzam na ďalšiu horskú lúku, kde som už v minulosti bol je tu posed s ideálnym výhľadom na všetky strany. Dá mi dostatok bezpečia cez noc.</p>
 
-        <div className="flex flex-row space-x-2 flex-nowrap h-96 xl:h-128 overflow-hidden justify-between">
+        <div className="flex flex-col md:flex-row md:space-x-2 flex-nowrap h-96 xl:h-128 overflow-hidden md:justify-between">
             <img className="rounded-sm shadow-sm" src={GetUri("6ovefdgfnujfznk/46.webp")} alt="Posed kde nocujem"/>
             <img className="rounded-sm shadow-sm" src={GetUri("rzrob02rtxof033/47.webp")} alt="Vyhlad z horskej luky"/>
         </div>
