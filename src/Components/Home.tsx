@@ -42,10 +42,10 @@ function StoryArea(){
   <div className={clsx("flex flex-col m-10 h-full md:h-auto",
     "content-center justify-items-center align-middle text-lg",
     "items-center justify-center text-gray-200 space-y-2")}>
-    <LinkWrapper to="/Story/MorningAfterRain">Morning after rain</LinkWrapper>
-    <LinkWrapper to="/Story/DroughtMonitoring">Deer behaviour during the dry season</LinkWrapper>
-    <LinkWrapper to="/Story/NightWithBears">Night with bears</LinkWrapper>
-    <LinkWrapper to="/Story/RoebuckTherithoryFight">Roebuck therithory fight</LinkWrapper>
+    <LinkWrapper to="wildlife/Story/MorningAfterRain">Morning after rain</LinkWrapper>
+    <LinkWrapper to="wildlife/Story/DroughtMonitoring">Deer behaviour during the dry season</LinkWrapper>
+    <LinkWrapper to="wildlife/Story/NightWithBears">Night with bears</LinkWrapper>
+    <LinkWrapper to="wildlife/Story/RoebuckTherithoryFight">Roebuck therithory fight</LinkWrapper>
   </div>
 </div>
 }
