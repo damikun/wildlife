@@ -115,7 +115,7 @@ import { GetUri } from "../../Constants";
 
         <p>Ďalšou zaujímavosťou je fakt, že extrémne sucho a vyschle zdroje vody vytvárajú čriedy jeleňov v lete. Niečo podobne, ako je možné pozorovať v zime. Jelene tak ostávajú v bliskosti vodného zdroja v nizzsie položených miestach. Čriedy sú sprievodný jav sucha proste ak je malo vody sú na mieste, kde voda je. Za iných podmienok by predpokladám nevznikli. Možno maximálne koly nadmernej potrave.</p>
 
-        <p>Srnčia zver bola v kukurici pozorovala minimálne, ba až vôbec. Ta je omnoho viac aktívnom práve v repke. Sporadicky sa objavila i v kukurici, no preferovala trávnaté časti na okraji poľa.</p>
+        <p>Srnčia zver bola v kukurici pozorovana minimálne, ba až vôbec. Ta je omnoho viac aktívna práve v repke. Sporadicky sa objavila i v kukurici, no preferovala trávnaté časti na okraji poľa.</p>
 
         <p>Poškodenie úrody kukuričného poľa je enormne. Do konca leta tipujem viac než 30-40 percent rastlín úplne poškodia. V tomto prípade ide o pole s rozlohou niekoľko hektárov. V podstate všade sú k videniu poškodené rastliny, okúsi a podobne.</p>
 
