@@ -46,7 +46,7 @@ import { GetUri } from "../../Constants";
         <div className="w-full justify-center content-center">
             <iframe
                 className="w-full h-80 md:h-96 xl:h-128"
-                src="https://www.youtube.com/embed/6ld1zO-2krU" 
+                src="https://www.youtube.com/embed/HlMtZfrMCYE" 
                 title="Liptovsky maco" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen />    
