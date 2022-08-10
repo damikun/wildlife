@@ -3,6 +3,14 @@ import { GetUri } from "../../Constants";
  export default function RoebuckTherithoryFight(){
     return <div className="space-y-5 text-base lg:text-lg">
 
+        <h1 className="text-xl font-semibold">Srnčí súboj na hranici teritória</h1>
+
+        <p> Je začiatok leta. V miestom revíri sa to už zelená. Navonok suché lúky ožili a miesta, na ktoré sa dnes vyberám nebudú za dva mesiace jednoducho priechodne.</p>
+
+        <p> Slnko už zapadá a teste pod hrebeňom stretávam jelene. Majú zimno/letny melir, ešte úplne nezhodili no prevláda už ta letná srst</p>
+
+        <p> Fotiť sa zrovna nedajú, pozadie je nezaujimave a preto sa oto ani nepokúšam a sledujem, ako pomaly odchádzajú k lesu. Vyberám sa na vedľajšiu lúku. Je to kúsok lesom tam plánujem dať bivak a ráno uvidím, čo vyšpekulujem.</p>
+        
         <p> Pred miestom, kde zvážnica ústí na lúku spomalím a zbadám srnca. Pasie sa v kľude na okraji.</p>
 
         <img className="rounded-sm shadow-sm" src={GetUri("s1g3gjqe8c8ns2q/20.webp")} alt="Srnec na hranici teritoria"/>
