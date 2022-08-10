@@ -3,7 +3,8 @@ import Card from './UI/Card';
 import { Link } from 'react-router-dom';
 import ThumbQ1 from "../Thumbs/thumb_q1.jpg"
 import ThumbQ2 from "../Thumbs/thumb_q2.jpg"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfo } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
 
@@ -13,13 +14,15 @@ export default function Home() {
       "overflow-auto text-center h-screen")}>
   
       <div className='flex flex-col-reverse lg:flex-row justify-between w-full'>
-        <div className='text-white lg:w-1/2'>
+        <div className='text-white lg:w-1/2 space-y-2'>
           <StoryArea/>
+          {/* <TestArea/> */}
         </div>
         
         <div className='flex flex-col lg:w-1/2'>
           <QuartalArea/>
         </div>
+
       </div>
   </div>
   );
@@ -42,6 +45,8 @@ function StoryArea(){
   <div className={clsx("flex flex-col m-10 h-full md:h-auto",
     "content-center justify-items-center align-middle text-lg",
     "items-center justify-center text-gray-200 space-y-2")}>
+    <LinkWrapper to="/Story/BatmanNightMonitoring">Night Bat Monitoring</LinkWrapper>
+    {/* <LinkWrapper to="/Story/SzopVsTop">Szopk VS Top</LinkWrapper> */}
     <LinkWrapper to="/Story/MorningAfterRain">Morning after rain</LinkWrapper>
     <LinkWrapper to="/Story/DroughtMonitoring">Deer behaviour during the dry season</LinkWrapper>
     <LinkWrapper to="/Story/NightWithBears">Night with bears</LinkWrapper>
@@ -88,3 +93,30 @@ function QuartalArea(){
     </div>
   </div>
 }
+
+// -------------------------
+
+
+// function TestArea(){
+//   return <div className='flex flex-col'>
+//   <div className='flex flex-col w-fit mx-auto mt-5 items-center justify-items-center justify-center'>
+//     <div>
+//       <h2 className='text-white font-bold text-4xl xl:text-5xl'>
+//         About me
+//       </h2>
+//       <h3 className='text-white font-semibold text-sm md:text-lg text-start -mt-1'>
+//         #Bio
+//       </h3>
+//     </div>
+//   </div>
+//   <div className={clsx("flex flex-col m-10 h-full md:h-auto",
+//     "content-center justify-items-center align-middle text-lg",
+//     "items-center justify-center text-gray-200 space-y-2")}>
+
+//       <div className='text-4xl mx-auto my-auto cursor cursor-pointer'>
+//         Me <FontAwesomeIcon icon={faInfo} />
+//       </div>
+      
+//   </div>
+// </div>
+// }

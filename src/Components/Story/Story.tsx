@@ -1,11 +1,13 @@
 import clsx from 'clsx';
+import  { useEffect } from 'react';
+import SzopkVsTop from './SzopkVsTop';
+import NightWithBears from './NightWithBears';
 import MorningAfterRain from './MorningAfterRain';
 import DroughtMonitoring from './DroughtMonitoring';
-import  { useEffect } from 'react';
-import NightWithBears from './NightWithBears';
 import { Link, Route, Routes } from 'react-router-dom';
-import RoebuckTherithoryFight from './RoebuckTherithoryFight';
+import BatmanNightMonitoring from './BatmanNightMonitoring';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import RoebuckTherithoryFight from './RoebuckTherithoryFight';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 type StoryProps = {
@@ -35,6 +37,8 @@ function Content(){
   return <div className='flex justify-center'>
     <div className='pt-8 px-5 md:pt-10 m-5 text-white max-w-6xl w-full'>
       <Routes>
+        <Route path="/BatmanNightMonitoring" element={<BatmanNightMonitoring/>} />
+        <Route path="/SzopVsTop" element={<SzopkVsTop/>} />
         <Route path="/MorningAfterRain" element={<MorningAfterRain/>} />
         <Route path="/DroughtMonitoring" element={<DroughtMonitoring/>} />
         <Route path="/NightWithBears" element={<NightWithBears/>} />

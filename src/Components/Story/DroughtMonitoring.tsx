@@ -73,7 +73,7 @@ import { GetUri } from "../../Constants";
 
         <img className="rounded-sm shadow-sm" src={GetUri("yoftod9605zlaey/38.webp")} alt="Srna a srnca"/>
 
-        <p>Tu je potrebné zdôrazniť, že vyrušenie by mohlo mať pri takomto teplom počasí za následok úhyn mláďatá nasledkom dehydratácie. Srnčatá sú prvý mesiac uplne závislé na <i className="italic">"cicani"</i> a vyrušena srna sa niekedy koly bezpečiu vráti až na ďalšie krmenie, čo môže byť  na druhy deň ráno alebo na obed.</p>
+        <p>Tu je potrebné zdôrazniť, že vyrušenie by mohlo mať pri takomto teplom počasí za následok úhyn mláďatá nasledkom dehydratácie. Srnčatá sú prvý mesiac uplne závislé na <i className="italic">"cicani"</i> a vyrušena srna sa niekedy koly bezpečiu vráti až na ďalšie krmenie, čo môže byť na druhy deň ráno alebo na obed.</p>
         
         <h4 className="font-semibold"># Ďalší deň večer</h4>
 

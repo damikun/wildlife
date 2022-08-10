@@ -5,7 +5,7 @@ import { GetUri } from "../../Constants";
 
         <h1 className="text-xl font-semibold">Noc s medveďmi</h1>
 
-        <p>Už dlhšiu dobu mám vyhliadnutych niekoľko miest, kde by som chcel pozorovať medvede. Momentálne sú premnozene a je pomerne jednoduché nane natrafiť. V okolí hlavného hrebeňa nízkych tatier sú v podstate všade.</p>
+        <p>Už dlhšiu dobu mám vyhliadnutych niekoľko miest, kde by som chcel pozorovať medvede. Momentálne sú premnožene a je pomerne jednoduché nane natrafiť. V okolí hlavného hrebeňa nízkych tatier sú v podstate všade.</p>
 
         <p>Beriem bicykel a mierim do hory. Na mape mám niekoľko miest, ktoré si chcem prejsť a lepšie spoznať</p>
 

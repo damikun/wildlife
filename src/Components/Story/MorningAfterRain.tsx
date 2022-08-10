@@ -31,7 +31,7 @@ export default function MorningAfterRain(){
         </div>
         <p>V okolí nič nepočuť len stebotanie ranných vtákov, zvuk lesa a otravne ovady, ktoré ma práve začali neskutočne otravovať, sakra, kde sa tu tak skoro vzali?</p>
         <p>Vidím ich! Práve vyšli 3 kusy z lesa. Sú, ale ešte ďaleko cca 200m predo mnou. Rozhodujem sa priblížiť, čo to pôjde.</p>
-        <p>Jelene majú poranu jedinú starosť, poriadne sa nažrať, a tak predpokladať, že si ma nevšimnú.</p>
+        <p>Jelene majú poranu jedinú starosť, poriadne sa nažrať, a tak predpokladam, že si ma nevšimnú.</p>
         <p>Ráno sú naozaj menej obozretne, nebývajú v tento čas bežné rusene, ako podvečer kedy sledujú všetko okolo a vyhodnocujú každý zvuk. Už nejakú tu hodinku pobehujú a mali tak dostatok času adaptovať sa na zvuky prostredia.</p>
         <p>Pokrčený sa pomaly približujem z ľavá ma kryje repka z práva les. Kráčam bez obáv, nakoľko pršalo, pod nohami nič nešuští a nepraská. Navyše v lese ešte počuť dopadať kvapky vody, čo zakrýva drobný šum.</p>
         <p>Zrazu pri zemi, asi 5m predo mnou vykukne z poľa zvieracia hlava, vravím si <i>"asi jazvec"</i>... <i>"no prd"</i>... Vybehne srnec a pozeráme na seba...</p>
@@ -48,7 +48,7 @@ export default function MorningAfterRain(){
         
         <img className="rounded-sm" src={deers} alt="Crieda jelenov"/>
 
-        <p>Počas priblizovania som ich vôbec nevidel pravdepodobne polihavali a až brechot srny alebo pohyb starších ich mohol postaviť.  Nieje to prvýkrát, čo bola vysoká vo vec som počte odomna na par metrov a vôbec ju nebolo počuť je to fascinujúce s akou tichosťou sa dokážu v takom poraste pohybovať. Repka je pomerne hustá a dáva im istú mieru bezpečia, vlk by sa tam hádam načisto zamotal a možno by do nej ani nevošiel. Sám som si to raz chcel cez podobne pole <i>"Skrátiť"</i> a par metrov ma stalo riadne množstvo energie.</p>
+        <p>Počas priblizovania som ich vôbec nevidel pravdepodobne polihavali a až brechot srny alebo pohyb starších ich mohol postaviť.  Nieje to prvýkrát, čo bola vysoká vo večsom počte odomna na par metrov a vôbec ju nebolo počuť je to fascinujúce s akou tichosťou sa dokážu v takom poraste pohybovať. Repka je pomerne hustá a dáva im istú mieru bezpečia, vlk by sa tam hádam načisto zamotal a možno by do nej ani nevošiel. Sám som si to raz chcel cez podobne pole <i>"Skrátiť"</i> a par metrov ma stalo riadne množstvo energie.</p>
         <p>Po krátkom čase jelene pomaly zachádzajú do lesa a ja si vravím, že ešte zbehnem pozrieť kukuričné pole z predošlého večera.</p>
         <p>Bol to pokus... Nič konkrétne nevidím a po 10minútach sledovania zahajujem návrat.</p>
        
