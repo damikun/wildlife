@@ -54,7 +54,7 @@ export default function BatmanNightMonitoring(){
 
         <img className="rounded-sm" src={GetUri("ep8rdxa572wlz1n/IMG_9396.jpg")} alt="Odchyteny netopier"/>
 
-        <p>Monitoring trvá 2-3h a s pribúdajúcim časom intenzita preletov klesá, preto balíme, sadáme do aut a vraciame sa do lampu dať si pivo a späť.</p>
+        <p>Monitoring trvá 2-3h a s pribúdajúcim časom intenzita preletov klesá, preto balíme, sadáme do aut a vraciame sa do campu dať si pivo a späť.</p>
 
     </div>
 }
