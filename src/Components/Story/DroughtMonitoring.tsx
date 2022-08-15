@@ -127,6 +127,8 @@ import { Helmet } from 'react-helmet';
 
             <img className="rounded-sm shadow-sm" src={GetUri("wytkrsr5vqy95rl/17.webp")} alt="Starsi jelen v kukurici"/>
 
+            <img className="rounded-sm shadow-sm" src={GetUri("iaee3es4daazxia/63_wildlife_kundrat.webp")} alt="Korunove jelene kukurica"/>
+
             <p>Pre zhrnutie uvediem, že jelene v tomto letnom období migrujú z vyšších položených lesov do miest s vyssiou koncentráciou výživnej potravy. Na bežných miestach výskytu teraz jelene takmer nespozorujete. Ryhy su suché, na hrebeni neďalekej hory teraz nenájdete kvapku vody. V zime som tam pozoroval čriedy o veľkosti 20-50KS pri každom výjazde.</p>
 
             <p>Ďalšou zaujímavosťou je fakt, že extrémne sucho a vyschle zdroje vody vytvárajú čriedy jeleňov v lete. Niečo podobne, ako je možné pozorovať v zime. Jelene tak ostávajú v bliskosti vodného zdroja v nizzsie položených miestach. Čriedy sú sprievodný jav sucha proste ak je malo vody sú na mieste, kde voda je. Za iných podmienok by predpokladám nevznikli. Možno maximálne koly nadmernej potrave.</p>
