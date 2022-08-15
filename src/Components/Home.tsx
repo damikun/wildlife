@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import Card from './UI/Card';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import ThumbQ1 from "../Thumbs/thumb_q1.jpg"
 import ThumbQ2 from "../Thumbs/thumb_q2.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -45,7 +45,7 @@ function StoryArea(){
   <div className={clsx("flex flex-col m-10 h-full md:h-auto",
     "content-center justify-items-center align-middle text-lg",
     "items-center justify-center text-gray-200 space-y-2")}>
-    <LinkWrapper to="/Story/BatmanNightMonitoring">Night Bat Monitoring</LinkWrapper>
+    <LinkWrapper to="/Story/BatNightMonitoring">Night Bat Monitoring</LinkWrapper>
     {/* <LinkWrapper to="/Story/SzopVsTop">Szopk VS Top</LinkWrapper> */}
     <LinkWrapper to="/Story/MorningAfterRain">Morning after rain</LinkWrapper>
     <LinkWrapper to="/Story/DroughtMonitoring">Deer behaviour during the dry season</LinkWrapper>

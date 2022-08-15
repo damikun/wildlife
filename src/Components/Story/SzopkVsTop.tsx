@@ -10,11 +10,11 @@ export default function SzopkVsTop(){
 
         <p>Týždennej stanovacky s bohatým programom sa zúčastnilo vyše 300 ľudí.</p>
 
-        <p>Denná činnosť bola rozdelená do niekoľkých sexi i podľa oboru činnosti. Niektoré sa koly pestrosti programu aj z kombinovali. Na výber bolo z nasledujúcich:</p>
+        <p>Denná činnosť bola rozdelená do niekoľkých sexie podľa oboru činnosti. Niektoré sa koly pestrosti programu aj spojili. Na výber bolo z nasledujúcich:</p>
 
         // Todo - Zoznam sexcii zo stranky...
 
-        <p>Nástup do sexi i bol o 9: 00 a končilo sa zvyčajne v poobedňajších hodinách. Niektoré svoju činnosť vykonávali aj vo večerných/nočných hodinách</p>
+        <p>Nástup do sexie bol o 9:00 a končilo sa zvyčajne v poobedňajších hodinách. Niektoré svoju činnosť vykonávali aj vo večerných/nočných hodinách</p>
 
         <p>Jednou zo skupín bol aj monitoring šeliem. Na vybranom území došlo k rozmiestneniu foto pasci a počas denných výjazdov sa zbierali a analyzovali stopy a pobytové znaky.</p>
 
@@ -54,14 +54,14 @@ export default function SzopkVsTop(){
 
 
         
-        <p>Na svoje si prišli aj deti, ktoré v rámci detské sexi e stavali naprikald búdky pre netopiere alebo navštívili neďalekú sprístupnenú jaskyňu <i className="italic">Zla diera</i></p>
+        <p>Na svoje si prišli aj deti, ktoré v rámci detské sexie stavali naprikald búdky pre netopiere alebo navštívili neďalekú sprístupnenú jaskyňu <i className="italic">Zla diera</i></p>
 
 
 
-        <p>Každý večer pri zhromaždení jednotlivé sexi e zhodnotili daný deň a od prezentovali plán na deň nasledujúci. Nechýbala ani živá hudba a zábava.</p>
+        <p>Každý večer pri zhromaždení jednotlivé sexie zhodnotili daný deň a prezentovali plán na deň nasledujúci. Nechýbala ani živá hudba a zábava.</p>
 
 
-        <p>Ako tomu byva vsetkemu je raz koniec a po tyzdni sa to zakoncilo spolocnym gulasom, ktory sme navarili.</p>
+        <p>Ako tomu byva vsetkemu je raz koniec a po tyzdni sa to zakoncilo spoločnym gulašom, ktory sme navarili.</p>
 
     </div>
 }

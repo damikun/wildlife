@@ -4,8 +4,8 @@ import SzopkVsTop from './SzopkVsTop';
 import NightWithBears from './NightWithBears';
 import MorningAfterRain from './MorningAfterRain';
 import DroughtMonitoring from './DroughtMonitoring';
-import { Link, Route, Routes } from 'react-router-dom';
-import BatmanNightMonitoring from './BatmanNightMonitoring';
+import { Link, Navigate, Route, Routes } from 'react-router-dom';
+import BatNightMonitoring from './BatNightMonitoring';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import RoebuckTherithoryFight from './RoebuckTherithoryFight';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -37,7 +37,9 @@ function Content(){
   return <div className='flex justify-center'>
     <div className='pt-8 px-5 md:pt-10 m-5 text-white max-w-6xl w-full'>
       <Routes>
-        <Route path="/BatmanNightMonitoring" element={<BatmanNightMonitoring/>} />
+        <Route path="/BatmanNightMonitoring" element={<Navigate to={"/BatNightMonitoring"}/>} />
+        
+        <Route path="/BatNightMonitoring" element={<BatNightMonitoring/>} />
         <Route path="/SzopVsTop" element={<SzopkVsTop/>} />
         <Route path="/MorningAfterRain" element={<MorningAfterRain/>} />
         <Route path="/DroughtMonitoring" element={<DroughtMonitoring/>} />
