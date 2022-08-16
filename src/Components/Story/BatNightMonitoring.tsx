@@ -1,7 +1,7 @@
+import { useEffect } from "react";
 import { GetUri } from "../../Constants";
 import { Helmet } from 'react-helmet';
 import { PageViews } from "@piwikpro/react-piwik-pro";
-import { useEffect } from "react";
 
 export default function BatNightMonitoring(){
 
@@ -31,7 +31,7 @@ export default function BatNightMonitoring(){
 
             <h1 className="text-xl font-semibold">Nočný odchyt netopierov</h1>
 
-            <p>Na stretnutí ochrany prírody a krajiny v kopytovskej doline sa jeden večer uskutočnil nočný odchyt netoprieov v spolupráci s <a target="_blank" rel="noreferrer" className="italic text-gray-300 hover:text-blue-300" href="https://www.netopiere.sk">netopiere.sk</a> </p>
+            <p>Na stretnutí ochrany prírody a krajiny v kopytovskej doline sa jeden večer uskutočnil nočný odchyt netoprieov v spolupráci s <a target="_blank" rel="noreferrer" className="italic text-gray-300 hover:text-blue-300" href="https://www.netopiere.sk">netopiere.sk</a> (SON - Spoločnosť pre ochranu netopierov) </p>
         
             <p>Jedna sa o formu monitoringu, kde sa tieto cicavce zachytávajú pomocou špeciálnej sieti (nárazova sieť) v mieste ich večerného výskytu. Hlavná aktivita je niekde medzi 20-23h (plávajúca)</p>
 
@@ -80,6 +80,7 @@ export default function BatNightMonitoring(){
             <img className="rounded-sm" src={GetUri("9hjcozgirt6rulj/IMG_9373.jpg")} alt="Odchyteny netopier"/>
 
             <img className="rounded-sm" src={GetUri("ep8rdxa572wlz1n/IMG_9396.jpg")} alt="Odchyteny netopier"/> 
+            
             <p>Monitoring trvá 2-3h a s pribúdajúcim časom intenzita preletov klesá, preto balíme, sadáme do aut a vraciame sa do campu dať si pivo a späť.</p>
 
         </div>

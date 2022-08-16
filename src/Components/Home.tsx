@@ -51,12 +51,12 @@ function StoryArea(){
   <div className={clsx("flex flex-col m-10 h-full md:h-auto",
     "content-center justify-items-center align-middle text-lg",
     "items-center justify-center text-gray-200 space-y-2")}>
-    <LinkWrapper to="/Story/BatNightMonitoring">Night Bat Monitoring</LinkWrapper>
-    {/* <LinkWrapper to="/Story/SzopVsTop">Szopk VS Top</LinkWrapper> */}
-    <LinkWrapper to="/Story/MorningAfterRain">Morning after rain</LinkWrapper>
-    <LinkWrapper to="/Story/DroughtMonitoring">Deer behaviour during the dry season</LinkWrapper>
-    <LinkWrapper to="/Story/NightWithBears">Night with bears</LinkWrapper>
-    <LinkWrapper to="/Story/RoebuckTherithoryFight">Roebuck therithory fight</LinkWrapper>
+    <LinkWrapper to="/Story/BatNightMonitoring">Nočny odchyt netopierov</LinkWrapper>
+    <LinkWrapper to="/Story/SzopVsTop">Stretnutie ochrany prirody</LinkWrapper>
+    <LinkWrapper to="/Story/MorningAfterRain">Ráno po daždi</LinkWrapper>
+    <LinkWrapper to="/Story/DroughtMonitoring">Monitoring zvery v období sucha</LinkWrapper>
+    <LinkWrapper to="/Story/NightWithBears">Noc s medveďmi</LinkWrapper>
+    <LinkWrapper to="/Story/RoebuckTherithoryFight">Srnčí súboj na hranici teritória</LinkWrapper>
   </div>
 </div>
 }
