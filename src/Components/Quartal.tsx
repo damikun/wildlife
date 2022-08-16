@@ -7,6 +7,7 @@ import ImageWrapper from './UI/ImageWrapper';
 import  { useCallback, useEffect} from 'react';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { PageViews } from '@piwikpro/react-piwik-pro';
 
 type QuartalProps = {
   name :string
@@ -18,6 +19,10 @@ export default function Quartal({name,images}:QuartalProps) {
   useEffect(() => {
     document.oncontextmenu = () => false;
   }, [])  
+
+  useEffect(() => {
+    PageViews.trackPageView(name);
+}, [])
 
   return (
     <Container>

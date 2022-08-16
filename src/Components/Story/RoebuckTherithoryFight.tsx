@@ -1,7 +1,14 @@
+import { PageViews } from "@piwikpro/react-piwik-pro";
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { GetUri } from "../../Constants";
 
  export default function RoebuckTherithoryFight(){
+
+    useEffect(() => {
+        PageViews.trackPageView('Srnčí súboj na hranici teritória');
+    }, [])
+    
     return <>
         <Helmet>
             <title>Srnčí súboj na hranici teritória</title>

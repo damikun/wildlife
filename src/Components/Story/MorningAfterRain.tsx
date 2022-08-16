@@ -1,3 +1,5 @@
+import { PageViews } from "@piwikpro/react-piwik-pro";
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { GetUri } from "../../Constants"
 
@@ -8,6 +10,10 @@ export default function MorningAfterRain(){
     var deers = GetUri("0xc2wxsohkp8kxc/14.webp");
     var deer= GetUri("9wfh8f32eipl7t4/13.webp");
 
+    useEffect(() => {
+        PageViews.trackPageView('Ráno po daždi');
+    }, [])
+    
     return <>
         <Helmet>
             <title>Ráno po daždi</title>

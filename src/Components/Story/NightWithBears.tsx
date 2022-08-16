@@ -1,7 +1,14 @@
+import { PageViews } from "@piwikpro/react-piwik-pro";
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { GetUri } from "../../Constants";
 
  export default function NightWithBears(){
+
+    useEffect(() => {
+        PageViews.trackPageView('Noc s medveďmi');
+    }, [])
+
     return <>
         <Helmet>
             <title>Noc s medveďmi</title>

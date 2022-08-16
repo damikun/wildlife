@@ -1,7 +1,14 @@
 import { GetUri } from "../../Constants";
 import { Helmet } from 'react-helmet';
+import { useEffect } from "react";
+import { PageViews } from "@piwikpro/react-piwik-pro";
 
  export default function DroughtMonitoring(){
+
+    useEffect(() => {
+        PageViews.trackPageView('Monitoring zvery v období sucha');
+    }, [])
+    
 
     return <>
 

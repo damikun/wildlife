@@ -1,8 +1,14 @@
 import { GetUri } from "../../Constants";
 import { Helmet } from 'react-helmet';
+import { PageViews } from "@piwikpro/react-piwik-pro";
+import { useEffect } from "react";
 
 export default function BatNightMonitoring(){
 
+    useEffect(() => {
+        PageViews.trackPageView('Nočny odchyt netopierov');
+    }, [])
+    
     return <>
 
         <Helmet>

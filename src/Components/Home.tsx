@@ -5,8 +5,14 @@ import ThumbQ1 from "../Thumbs/thumb_q1.jpg"
 import ThumbQ2 from "../Thumbs/thumb_q2.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfo } from '@fortawesome/free-solid-svg-icons';
+import { useEffect } from 'react';
+import { PageViews } from '@piwikpro/react-piwik-pro';
 
 export default function Home() {
+
+  useEffect(() => {
+    PageViews.trackPageView('Homepage');
+}, [])
 
   return (
     <div className={clsx("flex-1 md:flex flex-col bg-black w-screen",

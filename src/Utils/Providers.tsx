@@ -22,7 +22,7 @@ export const imageCacheCtx = React.createContext<imageCacheCtxType | null>(null)
 export default function Providers({children}:ProvidersProps){
 
   const [protectedCache,setProtectedCache] = useState(new Map<string, any>());
-
+  
   const state = useMemo(() => {
 
     return {
