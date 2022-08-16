@@ -7,7 +7,7 @@ import PiwikPro from '@piwikpro/react-piwik-pro';
 
 PiwikPro.initialize(
   '90133965-b2d2-4f3d-acfb-0fd851e43ee9',
-  'damikunwildlife.piwik.pro'
+  'https://damikunwildlife.piwik.pro'
 );
 
 const container = document.getElementById('root');
