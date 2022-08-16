@@ -22,7 +22,7 @@ export default function Quartal({name,images}:QuartalProps) {
 
   useEffect(() => {
     PageViews.trackPageView(name);
-}, [])
+  }, [])
 
   return (
     <Container>
