@@ -5,7 +5,7 @@ import Spinner from './Components/UI/Spinner';
 import reportWebVitals from './reportWebVitals';
 import PiwikPro from '@piwikpro/react-piwik-pro';
 
-PiwikPro.initialize('90133965-b2d2-4f3d-acfb-0fd851e43ee9', 'container-url');
+PiwikPro.initialize('90133965-b2d2-4f3d-acfb-0fd851e43ee9', 'damikun.github.io/wildlife');
 
 const container = document.getElementById('root');
 
