@@ -105,7 +105,9 @@ export default function SzopkVsTop(){
 
             <img className="rounded-sm" src={GetUri("7gipbm2o5g98otc/12_TOP.webp")} alt="Jelenice"/>
 
-            <p><b className="semibold">Výskyt srnčej zvery</b> bol v nižších počtoch, ako bývam zvyknutý. Je to určite aj vplyvom predatorov, najme početného Rysa Ostrovida, ale taktiež, aj miestnou formou manažmentu zvery a obhospodarovanim pôdy. Nikde v ďalekom okolí nedochádza k poľnohospodárskej činnosti. Lúky sa využívajú len na pastvu oviec a ako zdroj sena. Aj táto skutočnosť čiastočne vlýva na početnosť vysokj zvery nakoľko disponuje len prirodzenou potravou.</p>
+            <img className="rounded-sm" src={GetUri("k7shq9f6mo42dmh/36_TOP.webp")} alt="Jelenice"/>
+
+            <p><b className="semibold">Výskyt srnčej zvery</b> bol v nižších počtoch, ako bývam zvyknutý. Je to určite aj vplyvom predatorov, najme početného Rysa Ostrovida, ale taktiež, aj miestnou formou manažmentu zvery a obhospodarovanim pôdy. Nikde v ďalekom okolí nedochádza k poľnohospodárskej činnosti. Lúky sa využívajú len na pastvu oviec a ako zdroj sena. Aj táto skutočnosť čiastočne vlýva na početnosť vysokej zvery, nakoľko disponuje len prirodzenou potravou.</p>
 
             <p>Je nutne taktiež poznamenať, že vysoká zver je momentálne (júl/august) stiahnutá nižšie kôli nadmernému suchu. V niektorých regiónoch sú dokonca hlásené veľké čriedy, ktoré sú sprievodným javom sucha v danej oblasti. Zver sa potom drží neďaleko stálych vodných tokov.</p>
 
@@ -130,9 +132,11 @@ export default function SzopkVsTop(){
 
             <img className="rounded-sm" src={GetUri("jtw2i3d7cmndgww/14_TOP.webp")} alt="Konik cervenokridly- Psophus stridulus"/> 
 
-            <p>Skupina so zemeraním na motýľov odchytávala vybrané druhy aj cez noc na neďalekej lúke. Odobraté vzorky konzervovali pomocou etanolu.</p>
+            <p>Skupina so zemeraním na motýľov odchytávala vybrané druhy pčas dňa aj cez noc na neďalekej lúke. Odobraté vzorky konzervovali pomocou etanolu.</p>
 
             <br/>
+
+            <img className="rounded-sm" src={GetUri("748030rvga0b1ac/37_TOP.webp")} alt="Motyl"/> 
 
             <img className="rounded-sm" src={GetUri("eqbd5ohx7fvsheb/18_TOP.webp")} alt="Nocny odchyt hmyzu"/> 
 
