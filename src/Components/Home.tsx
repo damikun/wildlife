@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div className={clsx("flex-1 md:flex flex-col bg-black w-screen",
-      "md:items-center justify-items-center py-10",
+      "md:items-center justify-items-center py-10 mx-auto max-w-9xl",
       "overflow-auto text-center h-screen align-top")}>
   
       <div className='flex flex-col-reverse lg:flex-row justify-between w-full my-auto'>
@@ -103,15 +103,17 @@ function QuartalArea(){
 
 function AboutArea(){
   return <div className='flex flex-col'>
-  <div className='flex flex-col w-fit mx-auto mt-5 items-center justify-items-center justify-center'>
-    <div>
-      <h2 className='text-white font-bold text-4xl xl:text-5xl'>
-        About me
-      </h2>
-      <h3 className='text-white font-semibold text-sm md:text-lg text-start -mt-1'>
-        #Bio
-      </h3>
+      <div className='flex flex-col w-fit mx-auto mt-5 items-center justify-items-center justify-center'>
+        <LinkWrapper to={"/AboutMe"}>
+          <div>
+            <h2 className='text-white font-bold text-4xl xl:text-5xl'>
+              About me
+            </h2>
+            <h3 className='text-white font-semibold text-sm md:text-lg text-start -mt-1'>
+              #Bio
+            </h3>
+          </div>
+          </LinkWrapper>
+        </div>
     </div>
-  </div>
-</div>
 }
