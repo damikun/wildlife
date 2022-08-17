@@ -58,6 +58,8 @@ export default function About() {
                   <img className="rounded-sm object-fill" src={GetUri("w5vrs7lal0qoo7j/about_04.webp")} alt="Tatry"/>
 
                   <img className="rounded-sm" src={GetUri("xf5gxx0bkky2ix6/about_05.webp")} alt="Ladopad"/>
+
+                  <img className="rounded-sm" src={GetUri("9otxzeibfl7ex8z/about_07.webp")} alt="Hory"/>
                 </div>
               </div>
             </div>
