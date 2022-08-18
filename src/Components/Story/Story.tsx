@@ -9,6 +9,7 @@ import BatNightMonitoring from './BatNightMonitoring';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import RoebuckTherithoryFight from './RoebuckTherithoryFight';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import RoeDeerPromenade from './RoeDeerPromenade';
 
 type StoryProps = {
 
@@ -44,6 +45,7 @@ function Content(){
         <Route path="/DroughtMonitoring" element={<DroughtMonitoring/>} />
         <Route path="/NightWithBears" element={<NightWithBears/>} />
         <Route path="/RoebuckTherithoryFight" element={<RoebuckTherithoryFight/>} />
+        <Route path="/RoeDeerPromenade" element={<RoeDeerPromenade/>} />
       </Routes>
     </div>
   </div>

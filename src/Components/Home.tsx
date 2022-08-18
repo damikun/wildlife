@@ -52,9 +52,10 @@ function StoryArea(){
     <LinkWrapper to="/Story/BatNightMonitoring">Nočny odchyt netopierov</LinkWrapper>
     <LinkWrapper to="/Story/SzopVsTop">Stretnutie ochrany prirody</LinkWrapper>
     <LinkWrapper to="/Story/MorningAfterRain">Ráno po daždi</LinkWrapper>
-    <LinkWrapper to="/Story/DroughtMonitoring">Monitoring zvery v období sucha</LinkWrapper>
+    <LinkWrapper to="/Story/DroughtMonitoring">Jelenia zver v období sucha</LinkWrapper>
     <LinkWrapper to="/Story/NightWithBears">Noc s medveďmi</LinkWrapper>
     <LinkWrapper to="/Story/RoebuckTherithoryFight">Srnčí súboj na hranici teritória</LinkWrapper>
+    <LinkWrapper to="/Story/RoeDeerPromenade">Srnčia promenáda</LinkWrapper>
   </div>
 </div>
 }
