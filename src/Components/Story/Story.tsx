@@ -37,8 +37,6 @@ function Content(){
   return <div className='flex justify-center'>
     <div className='pt-8 px-5 md:pt-10 m-5 text-white max-w-6xl w-full'>
       <Routes>
-        <Route path="/BatmanNightMonitoring" element={<Navigate to={"/BatNightMonitoring"}/>} />
-        
         <Route path="/BatNightMonitoring" element={<BatNightMonitoring/>} />
         <Route path="/SzopVsTop" element={<SzopkVsTop/>} />
         <Route path="/MorningAfterRain" element={<MorningAfterRain/>} />
@@ -46,6 +44,9 @@ function Content(){
         <Route path="/NightWithBears" element={<NightWithBears/>} />
         <Route path="/RoebuckTherithoryFight" element={<RoebuckTherithoryFight/>} />
         <Route path="/RoeDeerPromenade" element={<RoeDeerPromenade/>} />
+
+        <Route path="/BatmanNightMonitoring" element={<Navigate to={"/BatNightMonitoring"}/>} />
+        
       </Routes>
     </div>
   </div>
