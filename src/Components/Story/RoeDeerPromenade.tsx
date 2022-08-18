@@ -31,11 +31,11 @@ export default function RoeDeerPromenade(){
 
             <h1 className="text-xl font-semibold">Srnčia promenáda</h1>
 
-            <p>Je jar, obdobie keď sa srnám naštartuje gravidita aby mohli v Máji rodiť mladé srnčatá. U srncov dorastá parožie no stále ho majú v lyku, zanedĺho začnu vytĺkať.</p>
+            <p>Je jar, obdobie keď sa srnám naštartuje gravidita aby mohli v Máji rodiť mladé srnčatá. U srncov dorastá parožie no stále ho majú v lyku, onedlho začnu vytĺkať.</p>
 
             <p>Odkrytá snehová prikrývka už nekomplikuje vyhľadávanie potravy. Pôda je premočená a lepí sa na ratice. Pri pozorovaní to pobaví.</p>
 
-            <p>Som na budúcom repkovom poli. Zver sa stále drží v menších čriedach a je úplne pokojá.</p>
+            <p>Som na budúcom repkovom poli. Zver sa stále drží v menších čriedach a je úplne pokojná.</p>
         
             <br/>
             <img className="rounded-sm" src={GetUri("6dznan5k1o4d4rs/promenada_03.webp")} alt="Srncia zver promenada"/>

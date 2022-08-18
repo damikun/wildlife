@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://damikun.github.io/wildlife</title>
+  <link>http://damikun.github.io/wildlife</link>
+
+<item>
+     <link>https://damikun.github.io/wildlife/</link>
+     <title>WildLife Photo Kundrat 2022</title>
+     <description>Wildlife photo 2022 by Dalibor Kundrat</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+
+<item>
+     <link>https://damikun.github.io/wildlife/#/2022/q1</link>
+     <title>WildLife Q1 2022</title>
+     <description>Kvartal-1 2022</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+
+<item>
+     <link>https://damikun.github.io/wildlife/#/2022/q2</link>
+     <title>WildLife Q1 2022</title>
+     <description>Kvartal-2 2022</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+
+<item>
+     <link>https://damikun.github.io/wildlife/#/AboutMe</link>
+     <title>About Dalibor Kundrat</title>
+     <description>Wildlife photo 2022 by Dalibor Kundrat</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+
+<item>
+     <link>https://damikun.github.io/wildlife/#/Story/RoebuckTherithoryFight</link>
+     <title>Srnči suboj na hranici teritória</title>
+     <description>Foto a Video z raritneho súboja na hranici teritória</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+
+<item>
+     <link>https://damikun.github.io/wildlife/#/Story/DroughtMonitoring</link>
+     <title>Jelenia zver v období sucha</title>
+     <description>Monitoring spravania sa jelenej zvery v období sucha</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+
+<item>
+     <link>https://damikun.github.io/wildlife/#/Story/BatNightMonitoring/</link>
+     <title>Nočny odchyt netopierov</title>
+     <description>Nočný odchyt netopierov v solupraci s netopiere.sk</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>6</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
