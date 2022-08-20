@@ -3,8 +3,8 @@ import Card from './UI/Card';
 import { useEffect } from 'react';
 import ThumbQ1 from "../Thumbs/thumb_q1.jpg"
 import ThumbQ2 from "../Thumbs/thumb_q2.jpg"
-import { PageViews } from '@piwikpro/react-piwik-pro';
 import { LinkWrapper } from './UI/LinkWrapper';
+import { PageViews } from '@piwikpro/react-piwik-pro';
 
 export default function Home() {
 

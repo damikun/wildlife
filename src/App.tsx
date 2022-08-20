@@ -1,12 +1,12 @@
 import './App.css';
 import  {useEffect} from 'react';
 import Home from './Components/Home';
+import About from './Components/About';
 import Providers from './Utils/Providers';
 import Quartal from './Components/Quartal';
 import Story from './Components/Story/Story';
 import { ImagesQ1, ImagesQ2 } from './Constants';
 import {Navigate, Route, Routes} from 'react-router-dom';
-import About from './Components/About';
 
 function App() {
 

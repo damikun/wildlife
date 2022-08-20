@@ -5,9 +5,9 @@ import  LandingInfo  from './LadingInfo';
 import { Link } from 'react-router-dom';
 import ImageWrapper from './UI/ImageWrapper';
 import  { useCallback, useEffect} from 'react';
+import { PageViews } from '@piwikpro/react-piwik-pro';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { PageViews } from '@piwikpro/react-piwik-pro';
 
 type QuartalProps = {
   name :string
