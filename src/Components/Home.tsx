@@ -1,10 +1,10 @@
 import clsx from 'clsx';
 import Card from './UI/Card';
-import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import ThumbQ1 from "../Thumbs/thumb_q1.jpg"
 import ThumbQ2 from "../Thumbs/thumb_q2.jpg"
-import { useEffect } from 'react';
 import { PageViews } from '@piwikpro/react-piwik-pro';
+import { LinkWrapper } from './UI/LinkWrapper';
 
 export default function Home() {
 
@@ -17,16 +17,16 @@ export default function Home() {
       "md:items-center justify-items-center py-10 mx-auto max-w-9xl",
       "overflow-auto text-center h-screen align-top")}>
   
-      <div className='flex flex-col-reverse lg:flex-row justify-between w-full my-auto'>
+      <div className={clsx("flex flex-col-reverse lg:flex-row",
+      "justify-between w-full my-auto")}>
         <div className='text-white lg:w-1/2 space-y-2'>
-          <StoryArea/>
-          <AboutArea/>
+          <StorySection/>
+          <AboutSection/>
         </div>
         
         <div className='flex flex-col lg:w-1/2'>
-          <QuartalArea/>
+          <QuartalSection/>
         </div>
-
       </div>
   </div>
   );
@@ -34,18 +34,9 @@ export default function Home() {
 
 // -----------------------------
 
-function StoryArea(){
+function StorySection(){
   return <div className='flex flex-col'>
-  <div className='flex flex-col w-fit mx-auto mt-5 items-center justify-items-center justify-center'>
-    <div>
-      <h2 className='text-white font-bold text-4xl xl:text-5xl'>
-        Photo story
-      </h2>
-      <h3 className='text-white font-semibold text-sm md:text-lg text-start -mt-1'>
-        #Personal Notes
-      </h3>
-    </div>
-  </div>
+  <SectionHeader name='Photo story' desc='#Personal Notes'/>
   <div className={clsx("flex flex-col m-10 h-full md:h-auto",
     "content-center justify-items-center align-middle text-lg",
     "items-center justify-center text-gray-200 space-y-2")}>
@@ -62,30 +53,9 @@ function StoryArea(){
 
 // -----------------------------
 
-type LinkWrapperProps = {
-  children:React.ReactNode;
-  to:string
-}
-
-function LinkWrapper({children,to}:LinkWrapperProps){
-  return <Link className='hover:text-white transition duration-200' to={to}>{children}</Link>
-}
-
-// -----------------------------
-
-function QuartalArea(){
+function QuartalSection(){
   return <div className='flex flex-col m-auto'>
-    <div className='flex flex-col w-fit mx-auto mt-5 h-20 items-center justify-items-center justify-center'>
-      <div>
-        <h1 className='text-white font-bold text-4xl xl:text-5xl'>
-          Wildlife 2022
-        </h1>
-        <h3 className='text-white font-semibold text-sm md:text-lg text-start -mt-1'>
-          © Dalibor Kundrat
-        </h3>
-      </div>
-    </div>
-
+    <SectionHeader name='Wildlife 2022' desc='© Dalibor Kundrat'/>
     <div className={clsx("flex flex-col m-10 h-full md:h-auto",
       "content-center justify-items-center align-middle",
       "md:grid md:grid-cols-2 items-center justify-center",
@@ -101,20 +71,32 @@ function QuartalArea(){
 
 // -------------------------
 
-
-function AboutArea(){
+function AboutSection(){
   return <div className='flex flex-col'>
-      <div className='flex flex-col w-fit mx-auto mt-5 items-center justify-items-center justify-center'>
-        <LinkWrapper to={"/AboutMe"}>
-          <div>
-            <h2 className='text-white font-bold text-4xl xl:text-5xl'>
-              About me
-            </h2>
-            <h3 className='text-white font-semibold text-sm md:text-lg text-start -mt-1'>
-              #Bio
-            </h3>
-          </div>
-          </LinkWrapper>
-        </div>
-    </div>
+    <LinkWrapper to='/AboutMe'>
+      <SectionHeader name='About me' desc='#Bio'/>
+    </LinkWrapper>
+  </div>
+}
+
+// -------------------------
+
+type SectionHeaderProps = {
+ name: string,
+ desc:string,
+ className?:string
+}
+
+function SectionHeader({name,desc,className}:SectionHeaderProps){
+  return <div className={clsx("flex flex-col w-fit mx-auto h-20 items-center",
+  "justify-items-center justify-center text-white", className)}>
+  <div>
+    <h1 className='font-bold text-4xl xl:text-5xl'>
+      {name}
+    </h1>
+    <h3 className='font-semibold text-sm md:text-lg text-start -mt-1'>
+      {desc}
+    </h3>
+  </div>
+</div>
 }

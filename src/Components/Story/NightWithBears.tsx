@@ -1,7 +1,8 @@
-import { PageViews } from "@piwikpro/react-piwik-pro";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { GetUri } from "../../Constants";
+import LoadableImage from '../UI/LodableImage';
+import { PageViews } from "@piwikpro/react-piwik-pro";
 
  export default function NightWithBears(){
 
@@ -36,27 +37,27 @@ import { GetUri } from "../../Constants";
 
             <p>Prechádzam na ďalšiu lúku, kde miestne združenie práve buduje nový posed. Poloha je luxusná čudujem sa, že ho tu dodnes nemali. Nakoľko tu nenachádzam miesto, kde by som mohol bezpečne bivakovať volí presun na inú lokalitu asi 10km vzdialenú.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("sti8qi9c2004k3j/44.webp")} alt="Vyhlad na horskom chodniku"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("sti8qi9c2004k3j/44.webp")} alt="Vyhlad na horskom chodniku"/>
 
             <p>Cestou natrafím na nejaké to varovanie priamo na zvážnici :)</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("niialgqr7zxq6n9/48.webp")} alt="Medvedie hovno"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("niialgqr7zxq6n9/48.webp")} alt="Medvedie hovno"/>
 
             <p>10km v tunajšom teréne znamená "hore, dole, hore" nič, čo by som si užíval.</p>
 
             <p>Prichádzam na ďalšiu horskú lúku, kde som už v minulosti bol je tu posed s ideálnym výhľadom na všetky strany. Dá mi dostatok bezpečia cez noc.</p>
 
             <div className="flex flex-col md:flex-row md:space-x-2 object-cover flex-nowrap overflow-hidden md:justify-between">
-                <img className="rounded-sm shadow-sm h-96 xl:h-128 object-cover rotate-0" src={GetUri("6ovefdgfnujfznk/46.webp")} alt="Posed kde nocujem"/>
-                <img className="rounded-sm shadow-sm h-96 xl:h-128 object-cover" src={GetUri("rzrob02rtxof033/47.webp")} alt="Vyhlad z horskej luky"/>
+                <LoadableImage className="rounded-sm shadow-sm h-96 xl:h-128 object-cover rotate-0" src={GetUri("6ovefdgfnujfznk/46.webp")} alt="Posed kde nocujem"/>
+                <LoadableImage className="rounded-sm shadow-sm h-96 xl:h-128 object-cover" src={GetUri("rzrob02rtxof033/47.webp")} alt="Vyhlad z horskej luky"/>
             </div>
             <p>Naposledy som tu fotil mladé jelene so zaujímavým sfarbením.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("40pqhkohgwb2pyy/26.webp")} alt="Zimno-letne sfarbenie mladeho jelena"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("40pqhkohgwb2pyy/26.webp")} alt="Zimno-letne sfarbenie mladeho jelena"/>
 
             <p>Pomaly začína zapadať slnko ja dojedám večeru a pripravujem sa, že možno niečo aj odfotím. Príroda maľuje nádherné farby.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("objf9ei6d3ksll0/49.webp")} alt="Vyhlad z horskej luky"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("objf9ei6d3ksll0/49.webp")} alt="Vyhlad z horskej luky"/>
 
             <h4 className="font-semibold"># Po zotmení</h4>
 

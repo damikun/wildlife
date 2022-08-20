@@ -1,7 +1,8 @@
-import { PageViews } from "@piwikpro/react-piwik-pro";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { GetUri } from "../../Constants"
+import LoadableImage from '../UI/LodableImage';
+import { PageViews } from "@piwikpro/react-piwik-pro";
 
 export default function MorningAfterRain(){
 
@@ -29,7 +30,7 @@ export default function MorningAfterRain(){
         </Helmet>
         <div className="space-y-5 text-base lg:text-lg">
 
-            <img className="rounded-sm shadow-sm" src={GetUri("bee7c7priesi909/31.webp")} alt="Nocna burka"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("bee7c7priesi909/31.webp")} alt="Nocna burka"/>
 
             <h1 className="text-xl font-semibold">Ráno po daždi</h1>
 
@@ -61,12 +62,12 @@ export default function MorningAfterRain(){
             <p>To, že nie vždy jelene reagujú na výstražné signály srnčej zvery (ako je brechot) už pozorujem opakovane a nijak konkrétne ma to neprekvapí. Opačne to, ale neplatí! Srnčia zver reaguje veľmi pozorne na jelenie výstražné signály. Práve, preto sa pri nich cíti bezpečne. Dalo sa, teda aj predpokladať, že nejaká ta srnčia v ich okolí bude.</p>
             <p>Podarilo sa mi priblížiť na cca. 50m. To je asi tentokrát maximum, pretože jeden z mladších jeleňov si ma už všimol no nevie ma identifikovať, preto zvedavo pózuje a ja zatiaľ fotím par pekných záberov s poľovníckym posedom v jeho pozadí.</p>
             
-            <img className="rounded-sm shadow-sm" src={deer} alt="Pred posedom"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={deer} alt="Pred posedom"/>
 
             <p>Sledujem, čo bude ďalej. Priblížiť sa už nemôžem vyplašil by som ich, a preto čakám. Po krátkom čase sa vydávajú k druhému lesu.</p>
             <p>Keď nehrozí, že ich vyplaším, zdvihnem hlavu nad repku a cca. 50m odomna je ďalších sedem kusov, ktorým z repky, trčí len hlava s parožím.</p>
             
-            <img className="rounded-sm" src={deers} alt="Crieda jelenov"/>
+            <LoadableImage className="rounded-sm" src={deers} alt="Crieda jelenov"/>
 
             <p>Počas približovania som ich vôbec nevidel pravdepodobne polihavali a až brechot srnčej alebo pohyb starších ich mohol postaviť.  Nieje to prvýkrát, čo bola vysoká vo večšom počte na par metrov a vôbec ju nebolo počuť. Je to fascinujúce s akou tichosťou sa dokážu v takom poraste pohybovať. Repka je pomerne hustá a dáva im istú mieru bezpečia, vlk by sa tam hádam načisto zamotal a možno by do nej ani nevošiel. Sám som si to raz chcel cez podobne pole <i>"Skrátiť"</i> a par metrov ma stalo riadne množstvo energie.</p>
             <p>Po krátkom čase jelene pomaly zachádzajú do lesa a ja si vravím, že ešte zbehnem pozrieť kukuričné pole z predošlého večera.</p>
@@ -74,9 +75,9 @@ export default function MorningAfterRain(){
         
             <p>Je 5:40 a ja sa pomaly vraciam pri východe slnka s ďalším zvečneným zážitkom. Teším sa na teplú kavej, ktorú si hneď po príchode vychutnám.</p>
             
-            <img className="rounded-sm" src={sunrise1} alt="Vychod slnka"/>
+            <LoadableImage className="rounded-sm" src={sunrise1} alt="Vychod slnka"/>
             
-            <img className="rounded-sm" src={sunrise2} alt="Vychod slnka"/>
+            <LoadableImage className="rounded-sm" src={sunrise2} alt="Vychod slnka"/>
             
         </div>      
     </>

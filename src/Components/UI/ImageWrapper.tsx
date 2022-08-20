@@ -3,7 +3,7 @@ import clsx from "clsx";
 import Spinner from "./Spinner";
 import { useMemo, useRef } from "react";
 import { imageCacheCtx } from "../../Utils/Providers";
-import { SuspenseImg } from "../../Utils/SuspenseImage";
+import SuspenseImg  from "../../Utils/SuspenseImage";
 import { useOnScreen } from "../../Hooks/useOnScreen";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { Suspense, useCallback, useContext, useEffect, useState } from "react";
@@ -15,6 +15,7 @@ type ImageWrapperProps = {
     alt?:string | undefined,
     id?:string
     blur?:boolean
+    className?:string
 }
 
 const variantsWrapper = {
@@ -33,7 +34,7 @@ const transitionImage = {duration:8, delay:0, ease:"circOut"}
 
 export default React.memo(ImageWrapper)
 
-function ImageWrapper({src,alt,id,blur,tabnum,onScreen}:ImageWrapperProps){
+function ImageWrapper({src,alt,id,blur,tabnum,onScreen,className}:ImageWrapperProps){
   
     const ref = useRef(null);
 
@@ -88,7 +89,7 @@ function ImageWrapper({src,alt,id,blur,tabnum,onScreen}:ImageWrapperProps){
             ref={ref} 
             tabIndex={tabnum}
             className={clsx("w-full h-full snap-center snap-always",
-            "overflow-hidden p-4 border-black select-none")}>    
+            "overflow-hidden p-4 border-black select-none",className)}>    
         <motion.div
           animate={isOnScreenMemorised}
           variants={variantsWrapper}

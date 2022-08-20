@@ -1,6 +1,7 @@
-import { GetUri } from "../../Constants";
-import { Helmet } from 'react-helmet';
 import { useEffect } from "react";
+import { Helmet } from 'react-helmet';
+import { GetUri } from "../../Constants";
+import LoadableImage from '../UI/LodableImage';
 import { PageViews } from "@piwikpro/react-piwik-pro";
 
  export default function DroughtMonitoring(){
@@ -8,7 +9,6 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
     useEffect(() => {
         PageViews.trackPageView('Monitoring zvery v období sucha');
     }, [])
-    
 
     return <>
 
@@ -39,9 +39,9 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
             
             <p>V skorých ranných hodinách pozorujem v repke pravidelne niekoľko kusov jeleňov. Pred východom slnka sa premiestňujú na kukuričné pole, kde opäť s nadčenim jedia, čo vidia.</p> 
 
-            <img className="rounded-sm shadow-sm" src={GetUri("7n2amztsbnprp89/08.webp")} alt="Ranne jelene kukurica"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("7n2amztsbnprp89/08.webp")} alt="Ranne jelene kukurica"/>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("2ute8sk1oi39nzh/35.webp")} alt="Ranne jelene kukurica"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("2ute8sk1oi39nzh/35.webp")} alt="Ranne jelene kukurica"/>
 
             <p>Nefotím a nepribližujem sa za každú cenu. Pozorujem ich správanie a ktorým smerom sa vyberu.</p>
 
@@ -55,7 +55,7 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
 
             <p>Asi o 18:00 sa objavuje na horizonte paroh. Sám tomu neverím. Je to voľáko priskoro. Za asi 5 minút už vidím cca 8KS jeleňov vychádzajúcich z ležoviska na kukuričné pole.</p>
             
-            <img className="rounded-sm shadow-sm" src={GetUri("4hgzbovvshflg0h/07.webp")} alt="Skora jelenia dvojica"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("4hgzbovvshflg0h/07.webp")} alt="Skora jelenia dvojica"/>
 
             <div className="w-full justify-center content-center">
                 <iframe
@@ -74,9 +74,9 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
 
             <p>Je 5:00 a ja prichádzam na kopec. V repke vidieť mladšie jelene, ktoré zachádzajú do lesa. Po príchode na kukuričné pole pozorujem ďalšie kusy a takmer identicky scenár ako naposledy. Jelene zalezú na to iste miesto.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("ladqczb5a8xti6b/12.webp")} alt="Mlady jelen v repkovom poli"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("ladqczb5a8xti6b/12.webp")} alt="Mlady jelen v repkovom poli"/>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("8hmp380aedzjzf0/25.webp")} alt="Ranne jelene"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("8hmp380aedzjzf0/25.webp")} alt="Ranne jelene"/>
 
             <p>Rozhodujem sa, že pred večerom pôjdem bližšie obhliadnuť miesto, kde zaliezajú s vedomím, že môžu niekde v okolí polihavat a vymýšľam stratégiu, ako sa neprezradiť v opačnom prípade by som ich na niekoľko dni mohol stratiť z dohľadu a hľadať ich po celom okolí nebudem.</p>
 
@@ -84,17 +84,17 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
 
             <p>Opäť cca. pred 6tou večer prichádzam na kukuričné pole a sadám si do trávnatej ryhy na okraji poľa a lesa. Je neskutočne teplo...  Sedmokrásky v okolí zanechávajú príjemnú arómu a ja zobem zrno, ktoré tu nadivoko rastie ako prežitok z minulých rokov.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("s5e6upvpn84v3i7/39.webp")} alt="Ranne jelene"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("s5e6upvpn84v3i7/39.webp")} alt="Ranne jelene"/>
             
             <p>Dnes vyšla vysoká pomerne neskoro. Ako prvé to boli jelenice jedna dokonca s tohtoročným jelenčaťom, ktoré bolo už pekne odrastene.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("sxqgvju72ix5gbk/37.webp")} alt="Skora jelenia dvojica"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("sxqgvju72ix5gbk/37.webp")} alt="Skora jelenia dvojica"/>
 
             <p>Jelene sa ukázali až pred 9tou večer, keď som sa pomaly vracal späť</p>
 
             <p>Cestou som ešte natrafil na srnu, ktorá akurát kŕmila mladé srnča, a tak polhodinu čakam až ho dokŕmi, aby som ich zbytočne neplašil nakoľko su neďaleko cesty kade kráčam</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("yoftod9605zlaey/38.webp")} alt="Srna a srnca"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("yoftod9605zlaey/38.webp")} alt="Srna a srnca"/>
 
             <p>Tu je potrebné zdôrazniť, že vyrušenie by mohlo mať pri takomto teplom počasí za následok úhyn mláďatá nasledkom dehydratácie. Srnčatá sú prvý mesiac uplne závislé na <i className="italic">"cicani"</i> a vyrušena srna sa niekedy koly bezpečiu vráti až na ďalšie krmenie, čo môže byť na druhy deň ráno alebo na obed.</p>
             
@@ -103,19 +103,19 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
             <p>Prichádzam na rovnaké miesto. Pohodlie v ryhe z predošlého dna nebolo ideálne, tak padá rozhodnutie, že sa vyvalím priamo v kukurici. Hľadám dostatočne vysoké rastliny, ktoré ma zakryjú z každej strany a čakám na západ slnka.</p>
 
             <div className="flex flex-col md:flex-row md:space-x-2 flex-nowrap overflow-hidden md:justify-between">
-                <img className="rounded-sm shadow-sm h-96 xl:h-128 object-cover rotate-0" src={GetUri("amr0aqrlqcismro/40.webp")} alt="Stanovisko v kukurici"/>
-                <img className="rounded-sm shadow-sm h-96 xl:h-128 object-cover" src={GetUri("0x72e00hm0wwgiu/50.webp")} alt="Obdobie sucha"/>
+                <LoadableImage  className="rounded-sm shadow-sm h-96 xl:h-128 object-cover rotate-0" src={GetUri("amr0aqrlqcismro/40.webp")} alt="Stanovisko v kukurici"/>
+                <LoadableImage  className="rounded-sm shadow-sm h-96 xl:h-128 object-cover" src={GetUri("0x72e00hm0wwgiu/50.webp")} alt="Obdobie sucha"/>
             </div>
 
             <p>Čas ubieha pomaly a ja premýšľam. Je 8 večer. Som smädný a hladný všetko, čo som si zobral som zmastil a vravím si, že tomu dám max. 15 minút a pôjdem. Nebudem tu za každú cenu.</p>
 
             <p>Po 15minútach velím na odchod zdvíham hlavu a hneď ju dávam nazad dole, keď zbadám, že asi 15m predomnou je niekoľko jeleňov. Fascinujúce občas som niečo cítil no nebolo ich zo začiatku vôbec počuť a už vôbec vidieť.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("s5ddq192rxj77in/10.webp")} alt="Jelen detail kukurica"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("s5ddq192rxj77in/10.webp")} alt="Jelen detail kukurica"/>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("jfp1n5dgvt8hp2o/42")} alt="Jelen zerie kukuricu"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("jfp1n5dgvt8hp2o/42")} alt="Jelen zerie kukuricu"/>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("1acvwnnpf06iszx/43.webp")} alt="Jelen a lan v kukurici"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("1acvwnnpf06iszx/43.webp")} alt="Jelen a lan v kukurici"/>
 
             <p>Robím par záberov, dokonca začujú uzávierku a chvíľu krútia hlavou a pozorujú ma. Mam maskovanie nevedia ma identifikovať navyše polyhavam... Netrvá to dlho a zase sú ponorené do prežúvania kukurice. Vôbec sa s tým neserú zožerú celú spodnú časť rastliny. Potichu sedím a len počúvam chrumkanie občas zavanie ich prenikavý pach.</p>
 
@@ -130,11 +130,13 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
 
             <p>Asi po hodine posedavania sa začali pomaly presúvať do stredu poľa a ja môžem v kľude po okraji lesa odísť preč.</p>
 
-            <p>Takto som ich monitoroval ešte ďalšie 2 dni. Niektoré jedince som si pomenoval, pretože som ich stretával pravidelne iné boli v daný deň nováčikmi. Vidieť je všetko staré a mladé jelene, lane aj čerstvý tohtoročný vrh.</p>
+            <p>Takto som ich monitoroval ešte ďalšie 2 dni. Niektoré jedince som si pomenoval, pretože som ich stretával pravidelne iné boli v daný deň nováčikmi. Vidieť je všetko staré, mladé jelene, lane aj čerstvý tohtoročný vrh. Občas sa aj poriadny divak ukáže.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("wytkrsr5vqy95rl/17.webp")} alt="Starsi jelen v kukurici"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("wytkrsr5vqy95rl/17.webp")} alt="Starsi jelen v kukurici"/>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("iaee3es4daazxia/63_wildlife_kundrat.webp")} alt="Korunove jelene kukurica"/>
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("iaee3es4daazxia/63_wildlife_kundrat.webp")} alt="Korunove jelene kukurica"/>
+
+            <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("ht90fk9wy4q37uc/jelenia_zver_sucho_kukurica.webp")} alt="Mlady jelen kukurica"/>
 
             <p>Pre zhrnutie uvediem, že jelene v tomto letnom období migrujú z vyšších položených lesov do miest s vyssiou koncentráciou výživnej potravy. Na bežných miestach výskytu teraz jelene takmer nespozorujete. Ryhy su suché, na hrebeni neďalekej hory teraz nenájdete kvapku vody. V zime som tam pozoroval čriedy o veľkosti 20-50KS pri každom výjazde.</p>
 

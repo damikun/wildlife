@@ -117,7 +117,10 @@ type SuspenseImgProps = {
   initial?:object
 } & React.ImgHTMLAttributes<HTMLImageElement>;
 
-export function SuspenseImg({ onLoad,hide, ...rest }: SuspenseImgProps): JSX.Element {
+
+export default React.memo(SuspenseImg);
+
+function SuspenseImg({ onLoad,hide, ...rest }: SuspenseImgProps): JSX.Element {
 
   const [state,setState] = useState(false);
 

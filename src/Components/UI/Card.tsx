@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { motion } from 'framer-motion';
 import { Link, useNavigate } from 'react-router-dom';
 import { imageCacheCtx } from '../../Utils/Providers';
-import { SuspenseImg } from '../../Utils/SuspenseImage';
+import SuspenseImg from '../../Utils/SuspenseImage';
 import  {Suspense, useCallback, useContext, useMemo, useTransition} from 'react';
 
 type CardProps = {

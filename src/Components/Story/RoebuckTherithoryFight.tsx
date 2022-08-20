@@ -1,7 +1,8 @@
-import { PageViews } from "@piwikpro/react-piwik-pro";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { GetUri } from "../../Constants";
+import LoadableImage from '../UI/LodableImage';
+import { PageViews } from "@piwikpro/react-piwik-pro";
 
  export default function RoebuckTherithoryFight(){
 
@@ -35,7 +36,7 @@ import { GetUri } from "../../Constants";
             
             <p> Pred miestom, kde zvážnica ústí na lúku spomalím a zbadám srnca. Pasie sa v kľude na okraji.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("s1g3gjqe8c8ns2q/20.webp")} alt="Srnec na hranici teritoria"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("s1g3gjqe8c8ns2q/20.webp")} alt="Srnec na hranici teritoria"/>
 
             <p> Vyťahujem foťák a robím par záberov, keď zrazu naň začne pobrechavat ďalší srnec, ktorého síce počujem, ale nevidím.</p>
 
@@ -43,7 +44,7 @@ import { GetUri } from "../../Constants";
 
             <p> Najprv si vzájomne porovnávajú parožie a obaja predpokladajú, že to druhy vzdá a boj nebude. Tentokrát sa stretli rovnocenní súperi a skočia si do vlasov</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("i74su0a33mhkrdh/22.webp")} alt="Srnec na hranici teritoria"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("i74su0a33mhkrdh/22.webp")} alt="Srnec na hranici teritoria"/>
 
             <p> Boj ma len jedného víťaza. Je fascinujúce sledovať cely rituál hovoriť niekomu tento zážitok bez videa by bolo k neuvereniu.</p>
 
@@ -60,13 +61,13 @@ import { GetUri } from "../../Constants";
 
             <p> Hneď z rana z hamaky sledujem na lúke jelene a srnčiu zver. Jeleň ma deformovane parožie, ale možno ešte niečo z toho narastie možno zhodil ľavú a pravú stranu s veľkým oneskorením aj to sa stáva.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("ccagu32r1zbleua/51.webp")} alt="Srnec na hranici teritoria"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("ccagu32r1zbleua/51.webp")} alt="Srnec na hranici teritoria"/>
 
             <p> Zaujme ma, ale srnec, ktorý ma nevie identifikovať a považuje ma za svojho a vyzýva ma k boju.</p>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("s4uo48wgkgtua8v/23.webp")} alt="Srnec na hranici teritoria"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("s4uo48wgkgtua8v/23.webp")} alt="Srnec na hranici teritoria"/>
 
-            <img className="rounded-sm shadow-sm" src={GetUri("wna1wk5zb0n31l4/21.webp")} alt="Srnec na hranici teritoria"/>
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("wna1wk5zb0n31l4/21.webp")} alt="Srnec na hranici teritoria"/>
 
             <p> Nejakú dobu tam poskakuje a pózuje, čo mne vôbec neprekáža:)</p>
 

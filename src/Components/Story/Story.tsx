@@ -2,20 +2,16 @@ import clsx from 'clsx';
 import  { useEffect } from 'react';
 import SzopkVsTop from './SzopkVsTop';
 import NightWithBears from './NightWithBears';
+import RoeDeerPromenade from './RoeDeerPromenade';
 import MorningAfterRain from './MorningAfterRain';
 import DroughtMonitoring from './DroughtMonitoring';
-import { Link, Navigate, Route, Routes } from 'react-router-dom';
 import BatNightMonitoring from './BatNightMonitoring';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import RoebuckTherithoryFight from './RoebuckTherithoryFight';
+import { Link, Navigate, Route, Routes } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import RoeDeerPromenade from './RoeDeerPromenade';
 
-type StoryProps = {
-
-}
-
-export default function Story({}:StoryProps) {
+export default function Story() {
 
   useEffect(() => {
     document.oncontextmenu = () => false;

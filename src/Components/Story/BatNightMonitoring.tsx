@@ -1,6 +1,7 @@
 import { useEffect } from "react";
-import { GetUri } from "../../Constants";
 import { Helmet } from 'react-helmet';
+import { GetUri } from "../../Constants";
+import LoadableImage from '../UI/LodableImage';
 import { PageViews } from "@piwikpro/react-piwik-pro";
 
 export default function BatNightMonitoring(){
@@ -38,7 +39,7 @@ export default function BatNightMonitoring(){
             <p>V tomto prípade boli siete rozmiestnené v tvare pisanemna <i>"L"</i> po obvode malého lesného jazera. Oblasť kde lovia možno označiť ako <i className="italic">lovny biotop</i>. Práve lesné oblsati sú z hľadiska monitoringu zaujímavé, nakoľko môžu byť domovom vzácnych druhov.</p>
 
             <br/>
-            <img className="rounded-sm" src={GetUri("4xbbiheomgqnmtm/IMG_9423.jpg")} alt="Rozmiestnenie sieti"/>
+            <LoadableImage className="rounded-sm" src={GetUri("4xbbiheomgqnmtm/IMG_9423.jpg")} alt="Rozmiestnenie sieti"/>
 
             <p>Po rozmiestneni sieti a vzdialeniu sa na cca. 10m od odchytovej zóny, zapíname analyzátor pre ultrazvukový záznam.</p>
 
@@ -47,7 +48,7 @@ export default function BatNightMonitoring(){
             <p>Spracovaný signál je možné sledovať v reálnom čase a taktiež počúvať niekolko-násobné spomalenie a transormáciu do nášho zvukového spektra. Nazvime to <i className="italic">zvukovy preklad</i>. To všetko sa deje počas letu netopiera.</p>
 
             <br/>
-            <img className="rounded-sm" src={GetUri("a05sf2adh0ibqq1/IMG_9228.jpg")} alt="Analyzator ultrazvukoveho spektra"/>
+            <LoadableImage className="rounded-sm" src={GetUri("a05sf2adh0ibqq1/IMG_9228.jpg")} alt="Analyzator ultrazvukoveho spektra"/>
 
             <p>Každý z druhov sa vyznačuje špecifickým zvukom a frekvenciou (20-110khz), ktorú používa. Je nutne poznamenať, že ultrazvukové spektrum používajú pre let a s nim spojenú orientáciu nie pre bežné prejavy a komunikáciu (sociálne prejavy)</p>
 
@@ -56,7 +57,7 @@ export default function BatNightMonitoring(){
             <p>Svetla sme zhasli no v kľude sa bavíme. Netopiere nás vnímajú a pri prelete sa nám vyhnú. Cca. po 30 minútach čakania detektor zaznamenal prelet nekolkych kusov, zapíname čelovky a mierime k odchytovym sieťam.</p>
 
             <br/>
-            <img className="rounded-sm" src={GetUri("kqmwl8ye1j94uqd/IMG_9231.jpg")} alt="Odchyteny netopier"/>
+            <LoadableImage className="rounded-sm" src={GetUri("kqmwl8ye1j94uqd/IMG_9231.jpg")} alt="Odchyteny netopier"/>
 
             <p>Netopiere prelietavaju častokrát v skupine. Aj v našom prípade došlo k odchytu niekoľko kusov rovnakého druhu za krátky čas.</p>
 
@@ -67,19 +68,19 @@ export default function BatNightMonitoring(){
             <p>V tomto prípade bolo odchytených niekoľko netopierov druhu <i className="italic">Myotis</i></p>
 
             <br/>
-            <img className="rounded-sm" src={GetUri("s5tmkjkx8y9jzuj/IMG_9356.jpg")} alt="Odchyteny netopier"/>
+            <LoadableImage className="rounded-sm" src={GetUri("s5tmkjkx8y9jzuj/IMG_9356.jpg")} alt="Odchyteny netopier"/>
 
-            <img className="rounded-sm" src={GetUri("ujdqfv1uiyehchs/IMG_9328.jpg")} alt="Odchyteny netopier"/>
+            <LoadableImage className="rounded-sm" src={GetUri("ujdqfv1uiyehchs/IMG_9328.jpg")} alt="Odchyteny netopier"/>
 
-            <img className="rounded-sm" src={GetUri("uaxbqidprl3so2o/IMG_9358.jpg")} alt="Odchyteny netopier kridlo"/>
+            <LoadableImage className="rounded-sm" src={GetUri("uaxbqidprl3so2o/IMG_9358.jpg")} alt="Odchyteny netopier kridlo"/>
             <br/>
             V krídle môžete pozorovať pôvodné prsty (hrubé čiary) a jemné cievy ktorými v blanách prúdi netopierom krv. Používajú to aj na chladenie krvného obehu v teplých dňoch, keď maváju krídlami naprázdno.
             <br/>
-            <img className="rounded-sm" src={GetUri("px7kf6qjmy37jcv/IMG_9366.jpg")} alt="Odchyteny netopier"/>
+            <LoadableImage className="rounded-sm" src={GetUri("px7kf6qjmy37jcv/IMG_9366.jpg")} alt="Odchyteny netopier"/>
 
-            <img className="rounded-sm" src={GetUri("9hjcozgirt6rulj/IMG_9373.jpg")} alt="Odchyteny netopier"/>
+            <LoadableImage className="rounded-sm" src={GetUri("9hjcozgirt6rulj/IMG_9373.jpg")} alt="Odchyteny netopier"/>
 
-            <img className="rounded-sm" src={GetUri("ep8rdxa572wlz1n/IMG_9396.jpg")} alt="Odchyteny netopier"/> 
+            <LoadableImage className="rounded-sm" src={GetUri("ep8rdxa572wlz1n/IMG_9396.jpg")} alt="Odchyteny netopier"/> 
             
             <p>Monitoring trvá 2-3h a s pribúdajúcim časom intenzita preletov klesá, preto balíme, sadáme do aut a vraciame sa do campu dať si pivo a späť.</p>
 

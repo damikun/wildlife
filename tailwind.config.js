@@ -12,6 +12,9 @@ module.exports = {
       maxWidth: {
         '8xl': '88rem',
         '9xl': '96rem',
+      },
+      minHeight: {
+        '40': '10rem',
       }
 
     },

@@ -1,9 +1,11 @@
 import clsx from 'clsx';
-import { useEffect } from 'react';
-import { HomeNavigation } from './Story/Story';
-import { PageViews } from '@piwikpro/react-piwik-pro';
-import { GetUri } from '../Constants';
 import { Helmet } from 'react-helmet';
+import { GetUri } from '../Constants';
+import LoadableImage from './UI/LodableImage';
+import { HomeNavigation } from './Story/Story';
+//@ts-ignore
+import { useEffect, SuspenseList } from 'react';
+import { PageViews } from '@piwikpro/react-piwik-pro';
 
 export default function About() {
 
@@ -46,31 +48,38 @@ export default function About() {
 
               <p className='font-semibold'>Dalibor</p>
 
-              <div className='flex flex-col mx-auto space-y-2'>
-                <div className='flex w-full space-x-2 overflow-hidden'>
-                  <img className="rounded-sm w-1/3" src={GetUri("ibbfuv2e0m3u56w/about_01.webp")} alt="Watzman"/>
+              <SuspenseList  revealOrder={"forward"}>
+                <div className='flex flex-col mx-auto space-y-2'>
+                  <SuspenseList  revealOrder={"together"}>
+                    <div className='flex w-full space-x-2 overflow-hidden '>
+                      <LoadableImage tabnum={0} className="rounded-sm w-1/3" src={GetUri("ibbfuv2e0m3u56w/about_01.webp")} alt="Watzman"/>
 
-                  <img className="rounded-sm w-1/3" src={GetUri("vybzndca93bpy7c/about_03.webp")} alt="Tatry"/>
+                      <LoadableImage tabnum={1} className="rounded-sm w-1/3" src={GetUri("vybzndca93bpy7c/about_03.webp")} alt="Tatry"/>
 
-                  <img className="rounded-sm w-1/3" src={GetUri("6zxkiti3x3q2doe/about_06.webp")} alt="Hory"/>
+                      <LoadableImage tabnum={2} className="rounded-sm w-1/3" src={GetUri("6zxkiti3x3q2doe/about_06.webp")} alt="Hory"/>
+                    </div>
+
+                    <div className='flex w-full space-x-2 overflow-hidden '>
+                      <LoadableImage tabnum={3} className="rounded-sm w-1/3" src={GetUri("n44vr9dnih57f05/About_10.webp")} alt="Sopecne hory"/>
+
+                      <LoadableImage tabnum={4} className="rounded-sm w-1/3" src={GetUri("eol6itffu7ed2eb/About_11.webp")} alt="Rakusko"/>
+
+                      <LoadableImage tabnum={5} className="rounded-sm w-1/3" src={GetUri("50qyk775swms89v/About_12.webp")} alt="Iceland"/>
+                    </div>
+
+                    </SuspenseList>
+
+                    <SuspenseList  revealOrder={"together"}>
+                      <div className='flex flex-col space-y-2 w-full'>
+                        <LoadableImage tabnum={6} className="rounded-sm" src={GetUri("w5vrs7lal0qoo7j/about_04.webp")} alt="Tatry"/>
+
+                        <LoadableImage tabnum={7} className="rounded-sm" src={GetUri("xf5gxx0bkky2ix6/about_05.webp")} alt="Ladopad"/>
+
+                        <LoadableImage tabnum={8} className="rounded-sm" src={GetUri("9otxzeibfl7ex8z/about_07.webp")} alt="Hory"/>
+                      </div>
+                    </SuspenseList>
                 </div>
-
-                <div className='flex w-full space-x-2 overflow-hidden'>
-                  <img className="rounded-sm w-1/3" src={GetUri("n44vr9dnih57f05/About_10.webp")} alt="Sopecne hory"/>
-
-                  <img className="rounded-sm w-1/3" src={GetUri("eol6itffu7ed2eb/About_11.webp")} alt="Rakusko"/>
-
-                  <img className="rounded-sm w-1/3" src={GetUri("50qyk775swms89v/About_12.webp")} alt="Iceland"/>
-                </div>
-
-                <div className='flex flex-col space-y-2 w-full'>
-                  <img className="rounded-sm object-fill" src={GetUri("w5vrs7lal0qoo7j/about_04.webp")} alt="Tatry"/>
-
-                  <img className="rounded-sm" src={GetUri("xf5gxx0bkky2ix6/about_05.webp")} alt="Ladopad"/>
-
-                  <img className="rounded-sm" src={GetUri("9otxzeibfl7ex8z/about_07.webp")} alt="Hory"/>
-                </div>
-              </div>
+              </SuspenseList>
             </div>
           </div>
         </div>
