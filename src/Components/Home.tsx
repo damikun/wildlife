@@ -19,12 +19,12 @@ export default function Home() {
   
       <div className={clsx("flex flex-col-reverse lg:flex-row",
       "justify-between w-full my-auto")}>
-        <div className='text-white lg:w-1/2 space-y-2'>
+        <div className='text-white lg:w-1/2 space-y-2 overflow-hidden'>
           <StorySection/>
           <AboutSection/>
         </div>
         
-        <div className='flex flex-col lg:w-1/2'>
+        <div className='flex flex-col lg:w-1/2 overflow-hidden'>
           <QuartalSection/>
         </div>
       </div>
@@ -39,7 +39,8 @@ function StorySection(){
   <SectionHeader name='Photo story' desc='#Personal Notes'/>
   <div className={clsx("flex flex-col m-10 h-full md:h-auto",
     "content-center justify-items-center align-middle text-lg",
-    "items-center justify-center text-gray-200 space-y-2")}>
+    "items-center justify-center text-gray-200 space-y-2",
+    "overflow-hidden")}>
     <LinkWrapper to="/Story/BatNightMonitoring">Nočny odchyt netopierov</LinkWrapper>
     <LinkWrapper to="/Story/SzopVsTop">Stretnutie ochrany prirody</LinkWrapper>
     <LinkWrapper to="/Story/MorningAfterRain">Ráno po daždi</LinkWrapper>
