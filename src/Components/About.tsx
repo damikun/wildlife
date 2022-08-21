@@ -71,11 +71,14 @@ export default function About() {
 
                     <SuspenseList  revealOrder={"together"}>
                       <div className='flex flex-col space-y-2 w-full'>
-                        <LoadableImage tabnum={6} className="rounded-sm" src={GetUri("w5vrs7lal0qoo7j/about_04.webp")} alt="Tatry"/>
 
-                        <LoadableImage tabnum={7} className="rounded-sm" src={GetUri("xf5gxx0bkky2ix6/about_05.webp")} alt="Ladopad"/>
+                        <LoadableImage tabnum={7} className="rounded-sm" src={GetUri("s8m14nnwe8paggv/about_14.webp")} alt="Alpy"/>
 
-                        <LoadableImage tabnum={8} className="rounded-sm" src={GetUri("9otxzeibfl7ex8z/about_07.webp")} alt="Hory"/>
+                        <LoadableImage tabnum={8} className="rounded-sm" src={GetUri("w5vrs7lal0qoo7j/about_04.webp")} alt="Tatry"/>
+
+                        <LoadableImage tabnum={9} className="rounded-sm" src={GetUri("xf5gxx0bkky2ix6/about_05.webp")} alt="Ladopad"/>
+
+                        <LoadableImage tabnum={10} className="rounded-sm" src={GetUri("9otxzeibfl7ex8z/about_07.webp")} alt="Hory"/>
                       </div>
                     </SuspenseList>
                 </div>
