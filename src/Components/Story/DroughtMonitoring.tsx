@@ -23,6 +23,18 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
                 name="keywords"
                 content="vysoka zver, sucho, jelene, jelene sucho, jelene kukurica"
             />
+            <meta
+                property="og:title"
+                content="Monitoring zvery v období sucha"
+            />
+            <meta 
+                property="og:description" 
+                content="Leto 2022 sebou priniesolo obdobie sucha. Rozhodol som sa práve počas največsich teplotných extrémov monitorovať vybrané územie a chovanie jelenej zvey." 
+            />
+            <meta
+                property="og:image"
+                content="https://damikun.github.io/wildlife/og_image_monitoring_sucha.png"
+            />
         </Helmet>
 
         <div className="space-y-5 text-base lg:text-lg">

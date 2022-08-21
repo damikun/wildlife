@@ -26,7 +26,7 @@ export default function About() {
         />
         <meta
             name="keywords"
-            content="dalibor kundrat"
+            content="dalibor kundrat, fotograf"
         />
     </Helmet>
 

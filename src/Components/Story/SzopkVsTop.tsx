@@ -26,6 +26,18 @@ export default function SzopkVsTop(){
                 name="keywords"
                 content="netopiere, nočný odchyt, ochrana prírody, šelmy, štátna ochrana prírody, tábor ochrancov prírody"
             />
+            <meta
+                property="og:title"
+                content="VS TOP"
+            />
+            <meta 
+                property="og:description" 
+                content="Leto 2022 prinieslo stretnutie ochrancov prírody a krajiny v Kopytovskej doline pri obci Šindliar" 
+            />
+            <meta
+                property="og:image"
+                content="https://damikun.github.io/wildlife/og_image_top.png"
+            />
         </Helmet>
 
         <div className="space-y-5 text-base lg:text-lg">

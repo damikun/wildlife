@@ -22,6 +22,18 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
                 name="keywords"
                 content="srnči súboj, srnce, srnce bitka, roebuck fight, srnčie teritorium, zvedavy srnec"
             />
+            <meta
+                property="og:title"
+                content="Srnčí súboj na hranici teritória"
+            />
+            <meta 
+                property="og:description" 
+                content="Najprv si vzájomne porovnávajú parožie a obaja predpokladajú, že to druhy vzdá a boj nebude. Tentokrát sa stretli rovnocenní súperi a skočia si do vlasov" 
+            />
+            <meta
+                property="og:image"
+                content="https://damikun.github.io/wildlife/og_image_srnci_suboj.png"
+            />
         </Helmet>
 
         <div className="space-y-5 text-base lg:text-lg">

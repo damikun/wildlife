@@ -26,6 +26,18 @@ export default function RoeDeerPromenade(){
                 name="keywords"
                 content="srncia jar, srncia zver, srnec, srna, srny promenada, srnec jar"
             />
+            <meta
+                property="og:title"
+                content="Srnčia promenáda"
+            />
+            <meta 
+                property="og:description" 
+                content="Je jar, obdobie keď sa srnám naštartuje gravidita aby mohli v Máji rodiť mladé srnčatá. U srncov dorastá parožie no stále ho majú v lyku, onedlho začnu vytĺkať" 
+            />
+            <meta
+                property="og:image"
+                content="https://damikun.github.io/wildlife/og_image_srncia_promenada.png"
+            />
         </Helmet>
 
         <div className="space-y-5 text-base lg:text-lg">

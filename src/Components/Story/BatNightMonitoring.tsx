@@ -26,6 +26,18 @@ export default function BatNightMonitoring(){
                 name="keywords"
                 content="netopiere, nočný odchyt, ultrazvuk, vek netopiera, ochrana netopierov, netopiere.sk, odchytové siete"
             />
+            <meta
+                property="og:title"
+                content="Nočný odchyt netopierov"
+            />
+            <meta 
+                property="og:description" 
+                content="Na stretnutí ochrany prírody a krajiny v kopytovskej doline sa jeden večer uskutočnil nočný odchyt netoprieov SON." 
+            />
+            <meta
+                property="og:image"
+                content="https://damikun.github.io/wildlife/og_image_odchyt_netopierov.png"
+            />
         </Helmet>
 
         <div className="space-y-5 text-base lg:text-lg">
