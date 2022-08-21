@@ -5,7 +5,7 @@ import ThumbQ1 from "../Thumbs/thumb_q1.jpg"
 import ThumbQ2 from "../Thumbs/thumb_q2.jpg"
 import { LinkWrapper } from './UI/LinkWrapper';
 import { PageViews } from '@piwikpro/react-piwik-pro';
-import { Helmet } from 'react-helmet';
+
 
 export default function Home() {
 
@@ -13,24 +13,7 @@ export default function Home() {
     PageViews.trackPageView('Homepage');
 }, [])
 
-  return (<>
-
-      <Helmet>
-        <meta
-            property="og:title"
-            content="Wildlife Photo 2022 Dalibor Kundrat"
-        />
-        <meta 
-            property="og:description" 
-            content="Každa fotka má príbeh a život je o zažitkoch. Príroda vám ich vie nadeliť koľko ste ochotný prijať." 
-        />
-        <meta
-            property="og:image"
-            content="https://www.dropbox.com/s/ci3xd1b90u8tydf/30.webp?raw=1"
-        />
-    </Helmet>
-    
-    <div className={clsx("flex-1 md:flex flex-col bg-black w-screen",
+  return ( <div className={clsx("flex-1 md:flex flex-col bg-black w-screen",
         "md:items-center justify-items-center py-10 mx-auto max-w-9xl",
         "overflow-auto text-center h-screen align-top")}>
     
@@ -46,7 +29,6 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </>
   );
 }
 
