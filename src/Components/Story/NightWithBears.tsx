@@ -47,10 +47,6 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
 
             <p>Prichádzam na ďalšiu horskú lúku, kde som už v minulosti bol je tu posed s ideálnym výhľadom na všetky strany. Dá mi dostatok bezpečia cez noc.</p>
 
-            <div className="flex flex-col md:flex-row md:space-x-2 object-cover flex-nowrap overflow-hidden md:justify-between">
-                <LoadableImage className="rounded-sm shadow-sm h-96 xl:h-128 object-cover rotate-0" src={GetUri("6ovefdgfnujfznk/46.webp")} alt="Posed kde nocujem"/>
-                <LoadableImage className="rounded-sm shadow-sm h-96 xl:h-128 object-cover" src={GetUri("rzrob02rtxof033/47.webp")} alt="Vyhlad z horskej luky"/>
-            </div>
             <p>Naposledy som tu fotil mladé jelene so zaujímavým sfarbením.</p>
 
             <LoadableImage className="rounded-sm shadow-sm" src={GetUri("40pqhkohgwb2pyy/26.webp")} alt="Zimno-letne sfarbenie mladeho jelena"/>
