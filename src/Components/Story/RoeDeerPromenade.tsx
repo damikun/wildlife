@@ -38,6 +38,7 @@ export default function RoeDeerPromenade(){
                 property="og:image"
                 content="https://damikun.github.io/wildlife/og_image_srncia_promenada.png"
             />
+            <meta property="og:type" content="article" />
         </Helmet>
 
         <div className="space-y-5 text-base lg:text-lg">
