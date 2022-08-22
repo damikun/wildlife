@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React from "react";
 import clsx from "clsx";
 import { imageCacheCtx } from "../../Utils/Providers";
 import  SuspenseImg  from "../../Utils/SuspenseImage";
@@ -74,7 +74,7 @@ function LoadableImage({src,alt,id,tabnum=0,className}:ImageWrapperProps){
                   transition={{duration:1}}>
                     <SuspenseImg
                       onLoad={handleOnImageReady}
-                      hide={!animate}
+                      hide={false}
                       cache={imgCacheCtx?.cache}
                       className={`overflow-hidden bg-black w-full h-full`}
                       alt={alt}

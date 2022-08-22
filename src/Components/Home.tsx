@@ -1,37 +1,59 @@
 import clsx from 'clsx';
 import Card from './UI/Card';
-import { useEffect } from 'react';
+import { Suspense, useEffect } from 'react';
 import ThumbQ1 from "../Thumbs/thumb_q1.jpg"
 import ThumbQ2 from "../Thumbs/thumb_q2.jpg"
 import { LinkWrapper } from './UI/LinkWrapper';
 import { PageViews } from '@piwikpro/react-piwik-pro';
-
+import ProfileCover from "../Thumbs/profile.webp"
+import SuspenseImage from '../Utils/SuspenseImage';
+import { AnimatePresence, motion } from 'framer-motion';
 
 export default function Home() {
 
   useEffect(() => {
     PageViews.trackPageView('Homepage');
-}, [])
+  }, [])
 
-  return ( <div className={clsx("flex-1 md:flex flex-col bg-black w-screen",
-        "md:items-center justify-items-center py-10 mx-auto max-w-9xl",
-        "overflow-auto text-center h-screen align-top")}>
-    
-      <div className={clsx("flex flex-col-reverse lg:flex-row",
-        "justify-between w-full my-auto")}>
-        <div className='text-white lg:w-1/2 space-y-2 overflow-hidden'>
-          <StorySection/>
-          <AboutSection/>
-        </div>
-        
-        <div className='flex flex-col lg:w-1/2 overflow-hidden'>
-          <QuartalSection/>
+  return ( <>
+      <CoverImage/>
+
+      <div className={clsx("flex-1 relative md:flex flex-col w-screen",
+          "md:items-center justify-items-center py-10 mx-auto max-w-9xl",
+          "overflow-auto text-center h-screen align-top bg-auto",
+          "bg-no-repeat z-20")}>   
+        <div className={clsx("flex flex-col-reverse lg:flex-row",
+          "justify-between w-full my-auto")}>
+          <div className='text-white lg:w-1/2 space-y-2 overflow-hidden'>
+            <StorySection/>
+            <AboutSection/>
+          </div>
+          
+          <div className='flex flex-col lg:w-1/2 overflow-hidden'>
+            <QuartalSection/>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
+// -----------------------------
+
+function CoverImage(){
+  return <Suspense fallback={null}>
+  <AnimatePresence>
+    <motion.div className='absolute z-0 bg-transparent bottom-0'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 1 }}
+            transition={{duration:1}}>
+
+      <SuspenseImage src={ProfileCover} className="bg-no-repeat opacity-20 landscape:h-screen"/>
+    </motion.div>
+  </AnimatePresence>
+</Suspense>
+}
 // -----------------------------
 
 function StorySection(){
@@ -60,7 +82,7 @@ function QuartalSection(){
     <div className={clsx("flex flex-col m-10 h-full md:h-auto",
       "content-center justify-items-center align-middle",
       "md:grid md:grid-cols-2 items-center justify-center",
-      "bg-black select-none")}>
+      "select-none")}>
 
       <Card name='Q1' isReady={true} to={"/2022/q1"} thumb={ThumbQ1} />
       <Card name='Q2' isReady={true} to={"/2022/q2"} thumb={ThumbQ2}/>

@@ -1,6 +1,6 @@
 import { MotionConfig } from "framer-motion";
 import LayoutProvider from "./LayoutProvider";
-import React, { Suspense, useMemo, useState } from "react";
+import React, { useMemo, useState } from "react";
 import { HashRouter as Router } from "react-router-dom";
 
 type ProvidersProps = {
@@ -43,9 +43,7 @@ export default function Providers({children}:ProvidersProps){
         <imageCacheCtx.Provider value={state}>
           <Router>
             <LayoutProvider>
-              <Suspense fallback={null}>
                 {children}
-              </Suspense>
             </LayoutProvider>
           </Router>
         </imageCacheCtx.Provider>
