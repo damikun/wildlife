@@ -8,6 +8,7 @@ import { PageViews } from '@piwikpro/react-piwik-pro';
 import ProfileCover from "../Thumbs/profile.webp"
 import SuspenseImage from '../Utils/SuspenseImage';
 import { AnimatePresence, motion } from 'framer-motion';
+import { Helmet } from 'react-helmet';
 
 export default function Home() {
 
@@ -16,6 +17,31 @@ export default function Home() {
   }, [])
 
   return ( <>
+          <Helmet>
+            <title>Wildlife 2022 by Dalibor Kundrat</title>
+            <meta
+                name="description"
+                content="Každa fotka má príbeh - Wildlife photo 2022 by Dalibor Kundrat"
+            />
+            <meta
+                name="keywords"
+                content="WildLife Photo, Dalibor Kundrat, Deer photo, Slovaka/Czech wildlife, Cergov, Liptov, Sumava, Tatry, Foto, Jelene, Vysoka zver"
+            />
+            <meta
+            property="og:title"
+            content="Wildlife Photo 2022 - Dalibor Kundrat"
+            />
+            <meta 
+                property="og:description" 
+                content="Každa fotka má príbeh. Stretnuť ma môžete na horách, v lese ba aj podzem občas zaleziem :)" 
+            />
+            <meta
+                property="og:image"
+                content="https://damikun.github.io/wildlife/og_image.png"
+            />
+            <meta property="og:type" content="website" />
+        </Helmet>
+        
       <CoverImage/>
 
       <div className={clsx("flex-1 relative md:flex flex-col w-screen",
