@@ -4,6 +4,7 @@ import { imageCacheCtx } from "../../Utils/Providers";
 import  SuspenseImg  from "../../Utils/SuspenseImage";
 import { useOnScreen } from "../../Hooks/useOnScreen";
 import { AnimatePresence, motion } from "framer-motion";
+import { useImgDetailCtx } from "./ImageDetail";
 import { Suspense, useCallback, useContext, useEffect, useState, useRef } from "react";
 
 type ImageWrapperProps = {
@@ -12,12 +13,13 @@ type ImageWrapperProps = {
     src:string;
     alt?:string | undefined,
     id?:string
-    className?:string
+    className?:string,
+    detail?:boolean
 }
 
-export default React.memo(LoadableImage)
+React.memo(LoadableImage)
 
-function LoadableImage({src,alt,id,tabnum=0,className}:ImageWrapperProps){
+export default function LoadableImage({src,alt,id,tabnum=0,className,detail=true}:ImageWrapperProps){
   
     const ref = useRef(null);
 
@@ -31,6 +33,8 @@ function LoadableImage({src,alt,id,tabnum=0,className}:ImageWrapperProps){
     const [rendered, setRendered] = useState(false)
 
     const [isDefaultDelay, setDefaultDelay] = useState(false);
+
+    const imageDetailCtx = useImgDetailCtx();
 
     useEffect(() => {
       if(isIntersecting && !rendered){
@@ -56,13 +60,19 @@ function LoadableImage({src,alt,id,tabnum=0,className}:ImageWrapperProps){
       }, 250);
     }, []);
 
-
+    const handleImageDetail = useCallback(
+      () => {
+        detail && imageDetailCtx?.open(src)
+      },
+      [imageDetailCtx,src,detail],
+    )
+    
     return (
       <div  id={id} 
             ref={ref} 
             tabIndex={tabnum}
-            className={clsx("w-full h-full min-h-40",
-            "overflow-hidden select-none",className)}>    
+            className={clsx("w-full h-full min-h-40 pointer-events-auto",
+            "overflow-hidden select-none",className, detail && "cursor-pointer")}>    
          <Suspense fallback={<ImagePlaceholder animate={true}/>}>
           {rendered && isDefaultDelay?
             <AnimatePresence>
@@ -73,10 +83,11 @@ function LoadableImage({src,alt,id,tabnum=0,className}:ImageWrapperProps){
                   exit={{ opacity: 1 }}
                   transition={{duration:1}}>
                     <SuspenseImg
+                      onClick={handleImageDetail}
                       onLoad={handleOnImageReady}
                       hide={false}
                       cache={imgCacheCtx?.cache}
-                      className={`overflow-hidden bg-black w-full h-full`}
+                      className={`overflow-hidden bg-black w-full h-full pointer-events-auto`}
                       alt={alt}
                       src={src}/> 
                 </motion.div>

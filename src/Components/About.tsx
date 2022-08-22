@@ -52,19 +52,19 @@ export default function About() {
                 <div className='flex flex-col mx-auto space-y-2'>
                   <SuspenseList  revealOrder={"together"}>
                     <div className='flex w-full space-x-2 overflow-hidden '>
-                      <LoadableImage tabnum={0} className="rounded-sm w-1/3" src={GetUri("ibbfuv2e0m3u56w/about_01.webp")} alt="Watzman"/>
+                      <LoadableImage detail={false} tabnum={0} className="rounded-sm w-1/3" src={GetUri("ibbfuv2e0m3u56w/about_01.webp")} alt="Watzman"/>
 
-                      <LoadableImage tabnum={1} className="rounded-sm w-1/3" src={GetUri("vybzndca93bpy7c/about_03.webp")} alt="Tatry"/>
+                      <LoadableImage detail={false} tabnum={1} className="rounded-sm w-1/3" src={GetUri("vybzndca93bpy7c/about_03.webp")} alt="Tatry"/>
 
-                      <LoadableImage tabnum={2} className="rounded-sm w-1/3" src={GetUri("6zxkiti3x3q2doe/about_06.webp")} alt="Hory"/>
+                      <LoadableImage detail={false} tabnum={2} className="rounded-sm w-1/3" src={GetUri("6zxkiti3x3q2doe/about_06.webp")} alt="Hory"/>
                     </div>
 
                     <div className='flex w-full space-x-2 overflow-hidden '>
-                      <LoadableImage tabnum={3} className="rounded-sm w-1/3" src={GetUri("n44vr9dnih57f05/About_10.webp")} alt="Sopecne hory"/>
+                      <LoadableImage detail={false} tabnum={3} className="rounded-sm w-1/3" src={GetUri("n44vr9dnih57f05/About_10.webp")} alt="Sopecne hory"/>
 
-                      <LoadableImage tabnum={4} className="rounded-sm w-1/3" src={GetUri("eol6itffu7ed2eb/About_11.webp")} alt="Rakusko"/>
+                      <LoadableImage detail={false} tabnum={4} className="rounded-sm w-1/3" src={GetUri("eol6itffu7ed2eb/About_11.webp")} alt="Rakusko"/>
 
-                      <LoadableImage tabnum={5} className="rounded-sm w-1/3" src={GetUri("50qyk775swms89v/About_12.webp")} alt="Iceland"/>
+                      <LoadableImage detail={false} tabnum={5} className="rounded-sm w-1/3" src={GetUri("50qyk775swms89v/About_12.webp")} alt="Iceland"/>
                     </div>
 
                     </SuspenseList>

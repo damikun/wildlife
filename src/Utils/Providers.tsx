@@ -2,6 +2,7 @@ import { MotionConfig } from "framer-motion";
 import LayoutProvider from "./LayoutProvider";
 import React, { useMemo, useState } from "react";
 import { HashRouter as Router } from "react-router-dom";
+import ImageDetailProvider from "../Components/UI/ImageDetail";
 
 type ProvidersProps = {
   children: React.ReactNode;
@@ -43,7 +44,9 @@ export default function Providers({children}:ProvidersProps){
         <imageCacheCtx.Provider value={state}>
           <Router>
             <LayoutProvider>
+              <ImageDetailProvider>
                 {children}
+              </ImageDetailProvider>
             </LayoutProvider>
           </Router>
         </imageCacheCtx.Provider>
