@@ -24,7 +24,7 @@ export default function RupicapraTatrica(){
             />
             <meta
                 name="keywords"
-                content="kamzík tatranský, rupicapra rupicapra tatrica, kamzik tatry"
+                content="kamzík tatranský,rupicapra rupicapra tatrica,kamzik tatry,Tatra chamois"
             />
             <meta
                 property="og:title"
@@ -71,6 +71,8 @@ export default function RupicapraTatrica(){
             <LoadableImage className="rounded-sm" src={GetUri("62cmqhfs7mndk24/kamzik_tatransky_07.webp")} alt="Kamzik tatransky "/>
 
             <LoadableImage className="rounded-sm" src={GetUri("ucasnkvnpjmdsn3/kamzik_tatransky_03.webp")} alt="Kamzik tatransky "/>
+
+            <LoadableImage className="rounded-sm" src={GetUri("9wo7yb7qdv17urd/kamzik_tatransky_06.webp")} alt="Kamzik tatransky "/>
 
             <LoadableImage className="rounded-sm" src={GetUri("iuf4394a0yu6nry/kamzik_tatransky_12.webp")} alt="Kamzik tatransky "/>
         </div>
