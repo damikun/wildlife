@@ -32,7 +32,7 @@ export default function RupicapraTatrica(){
             />
             <meta 
                 property="og:description" 
-                content="Fotoreport zachytávajúci kamzíka tatranského nad plesom Furkotskej doliny." 
+                content="Fotoreport zachytávajúci kamzíka tatranského nad Wahlenbergovym plesom Furkotskej doliny." 
             />
             <meta property="og:type" content="article" />
         </Helmet>
@@ -53,7 +53,7 @@ export default function RupicapraTatrica(){
 
             <p>Verím do posledného momentu, prinajhoršom to hodim cez hrebeň do vedľajšej doliny a bude z toho VHT.</p>
 
-            <p>Nakoniec ponad plesom vidieť 13 kamzíkov. Postupne ich fotím pri východe slnka.</p>
+            <p>Nakoniec, ponad plesom vidieť 13 kamzíkov. Postupne ich fotím pri východe slnka.</p>
 
             <br/>
             <LoadableImage className="rounded-sm" src={GetUri("fn9ja05wyxvk0p5/kamzik_tatransky_02.webp")} alt="Kamzik tatransky "/>
