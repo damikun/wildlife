@@ -74,11 +74,10 @@ export default function ImageDetailProvider({children}:ModalProps) {
         </div>
       </div>
     }
-    {children}
+      {children}
     </>
   </imageDetailCtx.Provider>
 }
-
 
 function ImageLoadingPlaceholder(){
   return <div className="w-full h-full whitespace-pre">

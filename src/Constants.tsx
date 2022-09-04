@@ -22,7 +22,7 @@ export const ImagesQ2 = [
     "ijkbocsnb8wk8ws/24.webp",
     "w4tl8jc00i6wijd/18.webp",
     "94soxfxhv1x23yr/19.webp",
-    "s1g3gjqe8c8ns2q/20.webp",  
+    "s1g3gjqe8c8ns2q/20.webp",
     "s4uo48wgkgtua8v/23.webp",
     "8hmp380aedzjzf0/25.webp",
     "gh9gb5fjijxkqyu/28.webp",

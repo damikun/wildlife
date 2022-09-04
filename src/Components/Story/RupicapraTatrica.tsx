@@ -24,7 +24,7 @@ export default function RupicapraTatrica(){
             />
             <meta
                 name="keywords"
-                content="kamzík tatranský,rupicapra rupicapra tatrica,kamzik tatry,Tatra chamois"
+                content="kamzík tatranský,rupicapra rupicapra tatrica,kamzik tatry,tatra chamois"
             />
             <meta
                 property="og:title"
@@ -39,7 +39,7 @@ export default function RupicapraTatrica(){
 
         <div className="space-y-5 text-base lg:text-lg">
 
-            <LoadableImage className="rounded-sm " src={GetUri("3e4kkh4jtxvwnkn/kamzik_tatransky_11.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm " src={GetUri("3e4kkh4jtxvwnkn/kamzik_tatransky_11.webp")} alt="Kamzik tatransky"/>
 
             <h1 className="text-xl font-semibold">Kamzík vrchovský tatranský</h1>
 
@@ -56,25 +56,25 @@ export default function RupicapraTatrica(){
             <p>Nakoniec, ponad plesom vidieť 13 kamzíkov. Postupne ich fotím pri východe slnka.</p>
 
             <br/>
-            <LoadableImage className="rounded-sm" src={GetUri("fn9ja05wyxvk0p5/kamzik_tatransky_02.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm" src={GetUri("fn9ja05wyxvk0p5/kamzik_tatransky_02.webp")} alt="Kamzik tatransky"/>
 
-            <LoadableImage className="rounded-sm" src={GetUri("vdhvp8v736yi2tq/kamzik_tatransky_01.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm" src={GetUri("vdhvp8v736yi2tq/kamzik_tatransky_01.webp")} alt="Kamzik tatransky"/>
 
-            <LoadableImage className="rounded-sm" src={GetUri("qnlxr1jof5oq1k1/kamzik_tatransky_05.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm" src={GetUri("qnlxr1jof5oq1k1/kamzik_tatransky_05.webp")} alt="Kamzik tatransky"/>
 
-            <LoadableImage className="rounded-sm" src={GetUri("99x0tyzwmzrf7pd/kamzik_tatransky_08.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm" src={GetUri("99x0tyzwmzrf7pd/kamzik_tatransky_08.webp")} alt="Kamzik tatransky"/>
 
-            <LoadableImage className="rounded-sm" src={GetUri("jwdp3gjdmnu8dxk/kamzik_tatransky_09.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm" src={GetUri("jwdp3gjdmnu8dxk/kamzik_tatransky_09.webp")} alt="Kamzik tatransky"/>
 
-            <LoadableImage className="rounded-sm" src={GetUri("wmjjlw66sxszpv5/kamzik_tatransky_04.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm" src={GetUri("wmjjlw66sxszpv5/kamzik_tatransky_04.webp")} alt="Kamzik tatransky"/>
 
-            <LoadableImage className="rounded-sm" src={GetUri("62cmqhfs7mndk24/kamzik_tatransky_07.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm" src={GetUri("62cmqhfs7mndk24/kamzik_tatransky_07.webp")} alt="Kamzik tatransky"/>
 
-            <LoadableImage className="rounded-sm" src={GetUri("ucasnkvnpjmdsn3/kamzik_tatransky_03.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm" src={GetUri("ucasnkvnpjmdsn3/kamzik_tatransky_03.webp")} alt="Kamzik tatransky"/>
 
-            <LoadableImage className="rounded-sm" src={GetUri("9wo7yb7qdv17urd/kamzik_tatransky_06.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm" src={GetUri("9wo7yb7qdv17urd/kamzik_tatransky_06.webp")} alt="Kamzik tatransky"/>
 
-            <LoadableImage className="rounded-sm" src={GetUri("iuf4394a0yu6nry/kamzik_tatransky_12.webp")} alt="Kamzik tatransky "/>
+            <LoadableImage className="rounded-sm" src={GetUri("iuf4394a0yu6nry/kamzik_tatransky_12.webp")} alt="Kamzik tatransky"/>
         </div>
     </>
 }

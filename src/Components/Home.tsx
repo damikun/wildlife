@@ -83,6 +83,7 @@ function CoverImage(){
   </AnimatePresence>
 </Suspense>
 }
+
 // -----------------------------
 
 function StorySection(){
@@ -142,14 +143,14 @@ type SectionHeaderProps = {
 
 function SectionHeader({name,desc,className}:SectionHeaderProps){
   return <div className={clsx("flex flex-col w-fit mx-auto h-20 items-center",
-  "justify-items-center justify-center text-white", className)}>
-  <div>
-    <h1 className='font-bold text-4xl xl:text-5xl'>
-      {name}
-    </h1>
-    <h3 className='font-semibold text-sm md:text-lg text-start -mt-1'>
-      {desc}
-    </h3>
+    "justify-items-center justify-center text-white", className)}>
+    <div>
+      <h1 className='font-bold text-4xl xl:text-5xl'>
+        {name}
+      </h1>
+      <h3 className='font-semibold text-sm md:text-lg text-start -mt-1'>
+        {desc}
+      </h3>
+    </div>
   </div>
-</div>
 }

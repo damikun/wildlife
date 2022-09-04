@@ -40,16 +40,16 @@ export default function Providers({children}:ProvidersProps){
   }, [protectedCache])
 
   return (
-      <MotionConfig reducedMotion='user'>
-        <imageCacheCtx.Provider value={state}>
-          <Router>
-            <LayoutProvider>
-              <ImageDetailProvider>
-                {children}
-              </ImageDetailProvider>
-            </LayoutProvider>
-          </Router>
-        </imageCacheCtx.Provider>
-      </MotionConfig>
+    <MotionConfig reducedMotion='user'>
+      <imageCacheCtx.Provider value={state}>
+        <Router>
+          <LayoutProvider>
+            <ImageDetailProvider>
+              {children}
+            </ImageDetailProvider>
+          </LayoutProvider>
+        </Router>
+      </imageCacheCtx.Provider>
+    </MotionConfig>
   )
 }
