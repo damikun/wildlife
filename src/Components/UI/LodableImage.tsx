@@ -87,7 +87,7 @@ export default function LoadableImage({src,alt,id,tabnum=0,className,detail=true
                       onLoad={handleOnImageReady}
                       hide={false}
                       cache={imgCacheCtx?.cache}
-                      className={`overflow-hidden bg-black w-full h-full pointer-events-auto`}
+                      className="overflow-hidden bg-black w-full h-full pointer-events-auto"
                       alt={alt}
                       src={src}/> 
                 </motion.div>

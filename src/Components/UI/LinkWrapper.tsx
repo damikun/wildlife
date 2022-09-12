@@ -7,5 +7,7 @@ type LinkWrapperProps = {
 }
 
 export function LinkWrapper({children,to}:LinkWrapperProps){
-  return <Link className='hover:text-white transition duration-200' to={to}>{children}</Link>
+  return <Link className='hover:text-white transition duration-200' to={to}>
+    {children}
+  </Link>
 }

@@ -70,7 +70,7 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
                     allowFullScreen />    
             </div>
             
-            <p> Po súboji sa presúvam do neďalekého lesíka, ktorý je fľak na vrchu hrebeňa. Natiahnem hamacu a počuvam les. O 23:00 začána vlči orchester. Z nedalekej hory sa postupne ozyva zavyjanie a prenaša sa z lava do prava. Odhadujem to na dve početne svorky možno aj 20ks. Po kratkej dobe les utichne a ja zaspávam. Zobúdzam sa až ráno o piatej.</p>
+            <p> Po súboji sa presúvam do neďalekého lesíka, ktorý je fľak na vrchu hrebeňa. Natiahnem hamacu a počuvam les. O 23:00 začána vlči orchester. Z nedalekej hory sa postupne ozyva zavyjanie a prenaša sa z lava do prava. Odhadujem to na dve početne svorky možno aj 15ks. Po kratkej dobe les utichne a ja zaspávam. Zobúdzam sa až ráno o piatej.</p>
 
             <p> Hneď z rana z hamaky sledujem na lúke jelene a srnčiu zver. Jeleň ma deformovane parožie, ale možno ešte niečo z toho narastie možno zhodil ľavú a pravú stranu s veľkým oneskorením aj to sa stáva.</p>
 

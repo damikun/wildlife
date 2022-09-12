@@ -58,6 +58,8 @@ export default function RupicapraTatrica(){
             <br/>
             <LoadableImage className="rounded-sm" src={GetUri("fn9ja05wyxvk0p5/kamzik_tatransky_02.webp")} alt="Kamzik tatransky"/>
 
+            <LoadableImage className="rounded-sm" src={GetUri("zy3wyzxwvrusugl/kamzik_kundrat_detail.webp")} alt="Kamzik tatransky detail"/>
+
             <LoadableImage className="rounded-sm" src={GetUri("vdhvp8v736yi2tq/kamzik_tatransky_01.webp")} alt="Kamzik tatransky"/>
 
             <LoadableImage className="rounded-sm" src={GetUri("qnlxr1jof5oq1k1/kamzik_tatransky_05.webp")} alt="Kamzik tatransky"/>

@@ -46,7 +46,7 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
         
             <p>Na vybranom mieste už vyše mesiaca niesu zaznamenané zrážky ak zanedbám jeden až dva prípady a nameraných 0.5mm v najblizsej mernej stanici. To napovedá, že v oblasti je extrémne sucho.</p>
             <p>Lokalitu dobre poznám no naposledy som ju monitoroval v zime, keď sa tam nachádzalo cca 20KS jelenej zvery a odhadom asi 50kusov srnčej. Jelene tu prezimovali v čriede od mladších až po staršie kusy. Lane tu, ale v zime k pozorovaniu neboli. Populácia srnčie zvery bola na veľkosť okolitých lesíkov obrovská a koncentrovala sa na jedno miesto.</p>
-            <p>Osobne som predpokladal, že jelene sa v tejto lokacii štandardné v lete nevyskytujú, možno tak sporadicky no pestrosť potravy ma presvedčila o opaku. Taktiež je nutne poznamenať, že som narazil na dva automatické rozosievače potravy umiestnené rovno pred posedmi, ale k tomu sa radčej nevyjadrujem.</p>
+            <p>Osobne som predpokladal, že jelene sa v tejto lokacii štandardné v lete nevyskytujú, možno tak sporadicky no pestrosť potravy ma presvedčila o opaku.</p>
 
             <p>Jelene tu majú v okolí lesíkov k dispozícii repkove, kukuričné a pšeničné pole. Obzvlášť kukurica poskytuje potravu bohatú na vodu, nakoľko rastie aj počas povrchového sucha a nema tendenciu vysychať</p>
             
@@ -66,7 +66,7 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
 
             <p>Volím vyvyšene stanovisko neďaleko miesta, kde ráno zaliezli do lesa. V batohu mám jedlo a hlavne vodu. Vravím si tak toto je aj namna priveľa 31 v tieni</p>
 
-            <p>Asi o 18:00 sa objavuje na horizonte paroh. Sám tomu neverím. Je to voľáko priskoro. Za asi 5 minút už vidím cca 8KS jeleňov vychádzajúcich z ležoviska na kukuričné pole.</p>
+            <p>Asi o 18:00 sa objavuje na horizonte paroh. Sám tomu neverím. Je to voľáko priskoro. (Západ je o 21:00) Za asi 5 minút už vidím cca 8KS jeleňov vychádzajúcich z ležoviska na kukuričné pole.</p>
             
             <LoadableImage  className="rounded-sm shadow-sm" src={GetUri("4hgzbovvshflg0h/07.webp")} alt="Skora jelenia dvojica"/>
 
@@ -115,10 +115,9 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
 
             <p>Prichádzam na rovnaké miesto. Pohodlie v ryhe z predošlého dna nebolo ideálne, tak padá rozhodnutie, že sa vyvalím priamo v kukurici. Hľadám dostatočne vysoké rastliny, ktoré ma zakryjú z každej strany a čakám na západ slnka.</p>
 
-            <div className="flex flex-col md:flex-row md:space-x-2 flex-nowrap overflow-hidden md:justify-between">
-                <LoadableImage  className="rounded-sm shadow-sm h-96 xl:h-128 object-cover rotate-0" src={GetUri("amr0aqrlqcismro/40.webp")} alt="Stanovisko v kukurici"/>
-                <LoadableImage  className="rounded-sm shadow-sm h-96 xl:h-128 object-cover" src={GetUri("0x72e00hm0wwgiu/50.webp")} alt="Obdobie sucha"/>
-            </div>
+            <LoadableImage  className="rounded-sm shadow-sm h-96 xl:h-128 object-cover rotate-0" src={GetUri("amr0aqrlqcismro/40.webp")} alt="Stanovisko v kukurici"/>
+            
+            <LoadableImage  className="rounded-sm shadow-sm h-96 xl:h-128 object-cover" src={GetUri("0x72e00hm0wwgiu/50.webp")} alt="Obdobie sucha"/>
 
             <p>Čas ubieha pomaly a ja premýšľam. Je 8 večer. Som smädný a hladný všetko, čo som si zobral som zmastil a vravím si, že tomu dám max. 15 minút a pôjdem. Nebudem tu za každú cenu.</p>
 
