@@ -82,7 +82,7 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
 
             <LoadableImage className="rounded-sm shadow-sm" src={GetUri("wna1wk5zb0n31l4/21.webp")} alt="Srnec na hranici teritoria"/>
 
-            <p> Nejakú dobu tam poskakuje a pózuje, čo mne vôbec neprekáža:)</p>
+            <p> Nejakú dobu tam poskakuje a pózuje, čo mne vôbec neprekáža :)</p>
 
             <div className="w-full justify-center content-center">
                 <iframe

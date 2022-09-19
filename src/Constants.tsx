@@ -3,6 +3,12 @@ export function GetUri(id:string){
     return `https://www.dropbox.com/s/${id}?raw=1`
 }
 
+
+export const ImagesQ3 = [ 
+    "daur6d9pnjdke2t/wildlife_kundrat_q3_2022_01.webp",
+    "iogob971v1ry4ux/wildlife_kundrat_q3_2022_02.webp",
+]
+
 export const ImagesQ2 = [ 
     "s5ddq192rxj77in/10.webp",
     "ci3xd1b90u8tydf/30.webp",

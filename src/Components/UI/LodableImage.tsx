@@ -68,11 +68,11 @@ export default function LoadableImage({src,alt,id,tabnum=0,className,detail=true
     )
     
     return (
-      <div  id={id} 
-            ref={ref} 
-            tabIndex={tabnum}
-            className={clsx("w-full h-full min-h-40 pointer-events-auto",
-            "overflow-hidden select-none",className, detail && "cursor-pointer")}>    
+      <div id={id} 
+           ref={ref} 
+           tabIndex={tabnum}
+           className={clsx("w-full h-full min-h-40 pointer-events-auto",
+           "overflow-hidden select-none",className, detail && "cursor-pointer")}>    
          <Suspense fallback={<ImagePlaceholder animate={true}/>}>
           {rendered && isDefaultDelay?
             <AnimatePresence>
@@ -81,7 +81,8 @@ export default function LoadableImage({src,alt,id,tabnum=0,className,detail=true
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 1 }}
-                  transition={{duration:1}}>
+                  transition={{ duration:1}}
+                >
                     <SuspenseImg
                       onClick={handleImageDetail}
                       onLoad={handleOnImageReady}
@@ -89,7 +90,7 @@ export default function LoadableImage({src,alt,id,tabnum=0,className,detail=true
                       cache={imgCacheCtx?.cache}
                       className="overflow-hidden bg-black w-full h-full pointer-events-auto"
                       alt={alt}
-                      src={src}/> 
+                      src={src}/>
                 </motion.div>
                 }
               </AnimatePresence>:

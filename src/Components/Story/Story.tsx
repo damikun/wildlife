@@ -16,7 +16,7 @@ export default function Story() {
 
   useEffect(() => {
     document.oncontextmenu = () => false;
-  }, [])  
+  }, [])
 
   return (<Container>
 

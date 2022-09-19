@@ -61,7 +61,7 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
 
             <LoadableImage className="rounded-sm shadow-sm" src={GetUri("36gvd0qa74qzriw/medved_kundrat.webp")} alt="Mlady medved"/>
 
-            <p> Je po 9 večer slnko už zapadlo, a to je ich čas. Fotiť sa nedá tak nahrávam aspoň krátke video, aby som si to spätne vedel pripomenúť a zanalyzovať. Aj, keď bude zrnité, vôbec nevadí.</p>
+            <p>Je po 9 večer slnko už zapadlo, a to je ich čas. Fotiť sa nedá tak nahrávam aspoň krátke video, aby som si to spätne vedel pripomenúť a zanalyzovať. Aj, keď bude zrnité, vôbec nevadí.</p>
 
             <p>Maco postupne prichádza bližšie do môjho zorného poľa, neskôr ma dokonca aj zevetri a odbehne do neďalekej mladiny zkade onedlho vybehne späť na lúku.</p>
 
@@ -74,7 +74,7 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
                     allowFullScreen />    
             </div>
 
-            <p>Je pol desiatej a nastala tma. Mesiac je niekde schovaný nevidno absolútne nič. Len počuť medveďa, ktorého som natáčal, ako robí v okolí hluk. Ja idem späť</p>
+            <p>Je pol desiatej a nastala tma. Mesiac je niekde schovaný nevidno absolútne nič. Len počuť medveďa, ktorého som natáčal, ako robí v okolí hluk. Ja idem spať</p>
 
             <p>Budím sa po polnoci na brechot srnčej. V okolí posedu počujem pohyb. Vyťahujem čelovku a svietim si v inak úplnej tme.</p>
 

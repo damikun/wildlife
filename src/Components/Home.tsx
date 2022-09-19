@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import { Suspense, useEffect } from 'react';
 import ThumbQ1 from "../Thumbs/thumb_q1.jpg"
 import ThumbQ2 from "../Thumbs/thumb_q2.jpg"
+import ThumbQ3 from "../Thumbs/thumb_q3.jpg"
 import { LinkWrapper } from './UI/LinkWrapper';
 import ProfileCover from "../Thumbs/profile.webp"
 import SuspenseImage from '../Utils/SuspenseImage';
@@ -117,7 +118,7 @@ function QuartalSection(){
 
       <Card name='Q1' isReady={true} to={"/2022/q1"} thumb={ThumbQ1} />
       <Card name='Q2' isReady={true} to={"/2022/q2"} thumb={ThumbQ2}/>
-      <Card name='Q3' isReady={false}/>
+      <Card name='Q3' isReady={true} to={"/2022/q3"} thumb={ThumbQ3}/>
       <Card name='Q4' isReady={false}/>
     </div>
   </div>
