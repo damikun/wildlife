@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/wildlife/static/css/main.277d2c24.css",
-    "main.js": "/wildlife/static/js/main.bb33a7ce.js",
+    "main.css": "/wildlife/static/css/main.30d6c5db.css",
+    "main.js": "/wildlife/static/js/main.c9013ee9.js",
     "App.css": "/wildlife/static/css/App.5b7841cf.chunk.css",
-    "App.js": "/wildlife/static/js/App.f235748a.chunk.js",
+    "App.js": "/wildlife/static/js/App.045f9fe9.chunk.js",
     "static/js/787.5ef76e6e.chunk.js": "/wildlife/static/js/787.5ef76e6e.chunk.js",
-    "static/js/590.c5868717.chunk.js": "/wildlife/static/js/590.c5868717.chunk.js",
+    "static/js/637.d6bff2a6.chunk.js": "/wildlife/static/js/637.d6bff2a6.chunk.js",
     "static/media/profile.webp": "/wildlife/static/media/profile.7b97037fd2fa55cacdd1.webp",
     "static/media/thumb_q2.jpg": "/wildlife/static/media/thumb_q2.d6c673da920a2356da11.jpg",
+    "static/media/thumb_q3.jpg": "/wildlife/static/media/thumb_q3.7513213ac98b28c7a498.jpg",
     "static/media/thumb_q1.jpg": "/wildlife/static/media/thumb_q1.0a37c7e69dc75bfa5ba5.jpg",
     "index.html": "/wildlife/index.html",
-    "main.277d2c24.css.map": "/wildlife/static/css/main.277d2c24.css.map",
-    "main.bb33a7ce.js.map": "/wildlife/static/js/main.bb33a7ce.js.map",
+    "main.30d6c5db.css.map": "/wildlife/static/css/main.30d6c5db.css.map",
+    "main.c9013ee9.js.map": "/wildlife/static/js/main.c9013ee9.js.map",
     "App.5b7841cf.chunk.css.map": "/wildlife/static/css/App.5b7841cf.chunk.css.map",
-    "App.f235748a.chunk.js.map": "/wildlife/static/js/App.f235748a.chunk.js.map",
+    "App.045f9fe9.chunk.js.map": "/wildlife/static/js/App.045f9fe9.chunk.js.map",
     "787.5ef76e6e.chunk.js.map": "/wildlife/static/js/787.5ef76e6e.chunk.js.map",
-    "590.c5868717.chunk.js.map": "/wildlife/static/js/590.c5868717.chunk.js.map"
+    "637.d6bff2a6.chunk.js.map": "/wildlife/static/js/637.d6bff2a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.277d2c24.css",
-    "static/js/main.bb33a7ce.js"
+    "static/css/main.30d6c5db.css",
+    "static/js/main.c9013ee9.js"
   ]
 }
