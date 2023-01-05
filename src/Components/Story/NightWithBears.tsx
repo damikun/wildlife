@@ -61,6 +61,8 @@ import { PageViews } from "@piwikpro/react-piwik-pro";
 
             <LoadableImage className="rounded-sm shadow-sm" src={GetUri("36gvd0qa74qzriw/medved_kundrat.webp")} alt="Mlady medved"/>
 
+            <LoadableImage className="rounded-sm shadow-sm" src={GetUri("nat80pdjgpi6mbe/maco_liptov_kundrat.webp")} alt="Maco video"/>
+
             <p>Je po 9 večer slnko už zapadlo, a to je ich čas. Fotiť sa nedá tak nahrávam aspoň krátke video, aby som si to spätne vedel pripomenúť a zanalyzovať. Aj, keď bude zrnité, vôbec nevadí.</p>
 
             <p>Maco postupne prichádza bližšie do môjho zorného poľa, neskôr ma dokonca aj zevetri a odbehne do neďalekej mladiny zkade onedlho vybehne späť na lúku.</p>
