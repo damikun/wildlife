@@ -56,6 +56,19 @@ export default function RupicapraTatrica(){
             <p>Nakoniec, ponad plesom vidieť 13 kamzíkov. Postupne ich fotím pri východe slnka.</p>
 
             <br/>
+
+            <div className="w-full justify-center content-center">
+                <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/9B0WauCZGDo" 
+                title="YouTube video player"  
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                />
+            </div>
+
+            <br/>
+            
             <LoadableImage className="rounded-sm" src={GetUri("fn9ja05wyxvk0p5/kamzik_tatransky_02.webp")} alt="Kamzik tatransky"/>
 
             <LoadableImage className="rounded-sm" src={GetUri("zy3wyzxwvrusugl/kamzik_kundrat_detail.webp")} alt="Kamzik tatransky detail"/>
