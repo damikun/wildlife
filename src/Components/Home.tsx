@@ -94,6 +94,7 @@ function StorySection(){
     "content-center justify-items-center align-middle text-lg",
     "items-center justify-center text-gray-200 space-y-2",
     "overflow-hidden")}>
+    <LinkWrapper to="/Story/IFoundTheDog">Túlavý pes</LinkWrapper>
     <LinkWrapper to="/Story/RupicapraTatrica">Kamzík tatranský</LinkWrapper>
     <LinkWrapper to="/Story/BatNightMonitoring">Nočny odchyt netopierov</LinkWrapper>
     <LinkWrapper to="/Story/SzopVsTop">Stretnutie ochrany prirody</LinkWrapper>

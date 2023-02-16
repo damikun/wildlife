@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import { useEffect } from 'react';
 import SzopkVsTop from './SzopkVsTop';
+import IFoundTheDog from './IFoundTheDog';
 import NightWithBears from './NightWithBears';
 import RoeDeerPromenade from './RoeDeerPromenade';
 import MorningAfterRain from './MorningAfterRain';
@@ -11,6 +12,7 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import RoebuckTherithoryFight from './RoebuckTherithoryFight';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, Navigate, Route, Routes } from 'react-router-dom';
+
 
 export default function Story() {
 
@@ -34,6 +36,7 @@ function Content(){
   return <div className='flex justify-center'>
     <div className='pt-8 px-5 md:pt-10 m-5 text-white max-w-6xl w-full'>
       <Routes>
+        <Route path="/IFoundTheDog" element={<IFoundTheDog/>} />
         <Route path="/RupicapraTatrica" element={<RupicapraTatrica/>} />
         <Route path="/BatNightMonitoring" element={<BatNightMonitoring/>} />
         <Route path="/SzopVsTop" element={<SzopkVsTop/>} />
