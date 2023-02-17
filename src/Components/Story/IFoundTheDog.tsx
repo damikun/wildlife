@@ -50,8 +50,8 @@ export default function IFoundTheDog(){
             <div className="flex flex-col">
                 <TimelineItem order={1} name="Našiel som psa">Vyhladovaný, zamotaný tulák</TimelineItem>
                 <TimelineItem order={2} name="Psia trauma">Brani sa priamemu kontaktu, upnutiu no inak je to maznák</TimelineItem>
-                <TimelineItem order={3} name="Problematika útulkov">Problém nájsť útulok a komunikácia s útulkami</TimelineItem>
-                <TimelineItem order={4} name="Nemenovaný útulok">Útulok chce bezdôvodne psa utratiť</TimelineItem>
+                <TimelineItem order={3} name="Problém útulkov">Problém nájsť útulok a komunikácia s útulkami</TimelineItem>
+                <TimelineItem order={4} name="Útulok">Útulok chce bezdôvodne psa utratiť</TimelineItem>
                 <TimelineItem order={5} name="Druhá šanca">Presun psa do dočasnej starostlivosti</TimelineItem>
                 <TimelineItem order={6} name="Výchova">Pes nemá návyky. Učí sa povelom a chovaniu v interiéri</TimelineItem>
                 <TimelineItem order={7} name="Stratil sa">Silvestrovsky útek</TimelineItem>
@@ -290,10 +290,10 @@ function TimelineItem({order,children,name}:TimelineItemProps){
         }
       };
 
-    return <div onClick={handleClickScroll} className="h-12 cursor-pointer flex flex-row space-x-10 items-center flex-nowrap group">
+    return <div onClick={handleClickScroll} className="h-14 cursor-pointer flex flex-row space-x-10 items-center flex-nowrap group">
 
-        <div className="flex relative h-12 select-none">
-            <div className="w-0.5 h-12 bg-white whitespace-pre absolute left-3"/>
+        <div className="flex relative h-14 select-none">
+            <div className="w-0.5 h-14 bg-white whitespace-pre absolute left-3"/>
             <div className="w-6 h-6 bg-white absolute top-3 rounded-full overflow-hidden items-center flex">
                 <div className="m-auto text-sm text-black text-center leading-none justify-center z-10">
                     {order}
@@ -301,10 +301,10 @@ function TimelineItem({order,children,name}:TimelineItemProps){
             </div>
         </div>
         
-        <div className="my-auto flex flex-row relative text-base space-x-2">
-            <div className="font-semibold">{name}</div>
-            <div>-</div>
-            <div className="text-gray-200 group-hover:underline">{children}</div>
+        <div className="my-auto flex flex-row relative text-base space-x-3 md:space-x-5 items-center">
+            <div className="font-semibold text-center flex flex-nowrap whitespace-pre">{name}</div>
+            <div>⮞</div>
+            <div className="text-gray-200 group-hover:underline whitespace-pre-wrap">{children}</div>
         </div>
     </div>
 }

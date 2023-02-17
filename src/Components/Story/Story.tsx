@@ -59,7 +59,7 @@ export function HomeNavigation(){
   return  <div className={clsx("flex flex-row top-0 left-0",
     "font-semibold text-xl hover:text-gray-300 transition",
     "text-gray-200 ml-5 duration-200 sticky p-3 md:p-5 lg:P-7",
-    "hover:text-white bg-black")}>
+    "hover:text-white bg-black z-20 sticky")}>
     <Link className='flex space-x-2 justify-center items-center' to={"/"}>
       <FontAwesomeIcon icon={faHouse}/>
       <span>Home</span>
