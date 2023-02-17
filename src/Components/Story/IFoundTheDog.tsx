@@ -49,11 +49,11 @@ export default function IFoundTheDog(){
 
             <div className="flex flex-col">
                 <TimelineItem order={1} name="Našiel som psa">Vyhladovaný, zamotaný tulák</TimelineItem>
-                <TimelineItem order={2} name="Psia trauma">Brani sa priamemu kontaktu, upnutiu no inak je to maznák</TimelineItem>
-                <TimelineItem order={3} name="Problém útulkov">Problém nájsť útulok a komunikácia s útulkami</TimelineItem>
+                <TimelineItem order={2} name="Psia trauma">Brani sa kontaktu, upnutiu no inak je to maznák</TimelineItem>
+                <TimelineItem order={3} name="Problém útulkov">Problém nájsť útulok, komunikácia s útulkami</TimelineItem>
                 <TimelineItem order={4} name="Útulok">Útulok chce bezdôvodne psa utratiť</TimelineItem>
                 <TimelineItem order={5} name="Druhá šanca">Presun psa do dočasnej starostlivosti</TimelineItem>
-                <TimelineItem order={6} name="Výchova">Pes nemá návyky. Učí sa povelom a chovaniu v interiéri</TimelineItem>
+                <TimelineItem order={6} name="Výchova">Pes nemá návyky. Učí sa povelom a chovaniu</TimelineItem>
                 <TimelineItem order={7} name="Stratil sa">Silvestrovsky útek</TimelineItem>
                 <TimelineItem order={8} name="Našiel sa">Keď nik neveril tak sa našiel</TimelineItem>
             </div>
