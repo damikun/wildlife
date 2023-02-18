@@ -256,7 +256,7 @@ type HeaderSectionProps = {
 }
 
 function HeaderSection({children,id}:HeaderSectionProps){
-    return <h2 id={id} className="font-bold h-10 bg-gray-400 items-center flex rounded-md px-5 text-black sticky top-5 z-10">
+    return <h2 id={id} className="font-bold h-10 bg-gray-400 items-center flex  px-5 text-black sticky top-14 z-10">
         {children}
     </h2>
 }
@@ -304,7 +304,7 @@ function TimelineItem({order,children,name}:TimelineItemProps){
         <div className="my-auto flex flex-row relative text-base space-x-3 md:space-x-5 items-center">
             <div className="font-semibold text-center flex flex-nowrap whitespace-pre">{name}</div>
             <div>⮞</div>
-            <div className="text-gray-200 group-hover:underline whitespace-pre-wrap">{children}</div>
+            <div className="text-gray-200 group-hover:underline whitespace-pre-wrap text-left">{children}</div>
         </div>
     </div>
 }
