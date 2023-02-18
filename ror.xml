@@ -5,6 +5,15 @@
   <link>http://damikun.github.io/wildlife</link>
 
 <item>
+     <link>https://damikun.github.io/wildlife/#/Story/IFoundTheDog</link>
+     <title>Našiel som psa</title>
+     <description>Pribeh Libora</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>7</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+
+<item>
      <link>https://damikun.github.io/wildlife/</link>
      <title>WildLife Photo Kundrat 2022</title>
      <description>Wildlife photo 2022 by Dalibor Kundrat</description>
