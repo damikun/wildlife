@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/wildlife/static/css/main.6093b014.css",
-    "main.js": "/wildlife/static/js/main.f15c6a83.js",
-    "App.css": "/wildlife/static/css/App.5b7841cf.chunk.css",
-    "App.js": "/wildlife/static/js/App.bcc2c7ef.chunk.js",
-    "static/js/787.5ef76e6e.chunk.js": "/wildlife/static/js/787.5ef76e6e.chunk.js",
-    "static/js/637.544d913f.chunk.js": "/wildlife/static/js/637.544d913f.chunk.js",
+    "main.css": "/wildlife/static/css/main.75b83270.css",
+    "main.js": "/wildlife/static/js/main.65e1b24e.js",
+    "App.css": "/wildlife/static/css/App.ba7e419a.chunk.css",
+    "App.js": "/wildlife/static/js/App.4a98c216.chunk.js",
+    "static/js/453.d22e6eff.chunk.js": "/wildlife/static/js/453.d22e6eff.chunk.js",
+    "static/js/654.482be4c1.chunk.js": "/wildlife/static/js/654.482be4c1.chunk.js",
     "static/media/profile.webp": "/wildlife/static/media/profile.7b97037fd2fa55cacdd1.webp",
     "static/media/thumb_q2.jpg": "/wildlife/static/media/thumb_q2.d6c673da920a2356da11.jpg",
     "static/media/thumb_q3.jpg": "/wildlife/static/media/thumb_q3.7513213ac98b28c7a498.jpg",
     "static/media/thumb_q1.jpg": "/wildlife/static/media/thumb_q1.0a37c7e69dc75bfa5ba5.jpg",
     "index.html": "/wildlife/index.html",
-    "main.6093b014.css.map": "/wildlife/static/css/main.6093b014.css.map",
-    "main.f15c6a83.js.map": "/wildlife/static/js/main.f15c6a83.js.map",
-    "App.5b7841cf.chunk.css.map": "/wildlife/static/css/App.5b7841cf.chunk.css.map",
-    "App.bcc2c7ef.chunk.js.map": "/wildlife/static/js/App.bcc2c7ef.chunk.js.map",
-    "787.5ef76e6e.chunk.js.map": "/wildlife/static/js/787.5ef76e6e.chunk.js.map",
-    "637.544d913f.chunk.js.map": "/wildlife/static/js/637.544d913f.chunk.js.map"
+    "main.75b83270.css.map": "/wildlife/static/css/main.75b83270.css.map",
+    "main.65e1b24e.js.map": "/wildlife/static/js/main.65e1b24e.js.map",
+    "App.ba7e419a.chunk.css.map": "/wildlife/static/css/App.ba7e419a.chunk.css.map",
+    "App.4a98c216.chunk.js.map": "/wildlife/static/js/App.4a98c216.chunk.js.map",
+    "453.d22e6eff.chunk.js.map": "/wildlife/static/js/453.d22e6eff.chunk.js.map",
+    "654.482be4c1.chunk.js.map": "/wildlife/static/js/654.482be4c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6093b014.css",
-    "static/js/main.f15c6a83.js"
+    "static/css/main.75b83270.css",
+    "static/js/main.65e1b24e.js"
   ]
 }
